@@ -124,8 +124,8 @@
     renderActionButtons(data);
     renderFeed(data);
     renderEmbassies(data);
-    renderCBSE(data);
     renderAirlines(data);
+    renderCBSE(data);
     renderFooter(data);
   }
 
