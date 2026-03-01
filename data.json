@@ -1,17 +1,28 @@
 {
-  "lastUpdated": "2026-03-02T04:37:11+05:30",
+  "lastUpdated": "2026-03-02T04:22:55+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
     "title": "CBSE EXAMS POSTPONED (MARCH 2)",
-    "subtitle": "Official Notice Inside — 7 Gulf Countries Affected",
+    "subtitle": "Official Notice Inside \u2014 7 Gulf Countries Affected",
     "alertLevel": "HIGH"
   },
   "cbse": {
     "circularUrl": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf",
     "summary": "CBSE has officially postponed Class 10 and Class 12 board exams scheduled for March 2, 2026 in 7 Middle East countries. New dates to be announced after review on March 3.",
-    "affectedCountries": ["Bahrain", "Iran", "Kuwait", "Oman", "Qatar", "Saudi Arabia", "UAE"],
-    "affectedClasses": ["Class X (10)", "Class XII (12)"],
+    "affectedCountries": [
+      "Bahrain",
+      "Iran",
+      "Kuwait",
+      "Oman",
+      "Qatar",
+      "Saudi Arabia",
+      "UAE"
+    ],
+    "affectedClasses": [
+      "Class X (10)",
+      "Class XII (12)"
+    ],
     "nextReviewDate": "2026-03-03",
     "issuedBy": "Controller of Examinations, Dr. Sanyam Bhardwaj",
     "issuedDate": "2026-03-01"
@@ -23,7 +34,10 @@
       "mission": "Consulate General of India, Dubai",
       "emergency": "+971-50-7347676",
       "tollFree": "800-46342",
-      "additionalNumbers": ["+971-504559594", "+971-509433111"],
+      "additionalNumbers": [
+        "+971-504559594",
+        "+971-509433111"
+      ],
       "whatsapp": "+971-543090571",
       "email": "pbsk.dubai@mea.gov.in",
       "website": "https://www.cgidubai.gov.in",
@@ -35,7 +49,10 @@
       "mission": "Embassy of India, Abu Dhabi",
       "emergency": "+971-50-8995583",
       "tollFree": "800-46342",
-      "additionalNumbers": ["+971-564038863", "+971-502103813"],
+      "additionalNumbers": [
+        "+971-564038863",
+        "+971-502103813"
+      ],
       "email": "ca.abudhabi@mea.gov.in",
       "website": "https://www.indembassyuae.gov.in",
       "note": "Death Emergency: +971-564038863 | Female Workers Distress: +971-502103813"
@@ -45,7 +62,11 @@
       "country": "Iran",
       "mission": "Embassy of India, Tehran",
       "emergency": "+98-9128109115",
-      "additionalNumbers": ["+98-9128109109", "+98-9128109102", "+98-9932179359"],
+      "additionalNumbers": [
+        "+98-9128109109",
+        "+98-9128109102",
+        "+98-9932179359"
+      ],
       "whatsapp": "+98-9010445557",
       "email": "cons.tehran@mea.gov.in",
       "website": "https://www.indianembassytehran.gov.in"
@@ -93,7 +114,10 @@
       "country": "Kuwait",
       "mission": "Embassy of India, Kuwait",
       "emergency": "+965-65501946",
-      "additionalNumbers": ["+965-22530600", "+965-65809348"],
+      "additionalNumbers": [
+        "+965-22530600",
+        "+965-65809348"
+      ],
       "whatsapp": "+965-65501946",
       "email": "community.kuwait@mea.gov.in",
       "website": "https://indembkwt.gov.in"
@@ -103,14 +127,21 @@
       "country": "Bahrain",
       "mission": "Embassy of India, Bahrain",
       "emergency": "+973-39418071",
-      "additionalNumbers": ["+973-38400433", "+973-17560360"],
+      "additionalNumbers": [
+        "+973-38400433",
+        "+973-17560360"
+      ],
       "email": "cons.bahrain@mea.gov.in",
       "website": "https://www.eoibahrain.gov.in"
     }
   ],
   "meaCentral": {
     "description": "MEA 24/7 Control Room, New Delhi",
-    "numbers": ["+91-11-23011954", "+91-11-23012292", "+91-11-23017160"],
+    "numbers": [
+      "+91-11-23011954",
+      "+91-11-23012292",
+      "+91-11-23017160"
+    ],
     "tollFree": "1800-118-797",
     "whatsapp": "+91-99682-91988",
     "email": "situationroom@mea.gov.in"
@@ -118,7 +149,7 @@
   "madad": {
     "url": "https://www.madad.gov.in",
     "helpline": "1800-11-3090",
-    "description": "MEA's Consular Services Management System — Register for assistance abroad"
+    "description": "MEA's Consular Services Management System \u2014 Register for assistance abroad"
   },
   "airlines": [
     {
@@ -156,7 +187,7 @@
       "refundUrl": "https://www.etihad.com/en/manage/manage-booking",
       "contactUrl": "https://www.etihad.com/en/help",
       "phone": "+971-600-555-666",
-      "crisisNote": "All flights to/from Abu Dhabi suspended until March 2, 14:00 (2 PM) UAE time. Free rebook on Etihad flights until March 15 for bookings before Feb 28. Full refund for cancelled flights via etihad.com/help or travel agent."
+      "crisisNote": "All flights to/from Abu Dhabi suspended until March 2, 02:00 UAE time. Fee-free rebooking and full refunds available."
     },
     {
       "name": "SpiceJet",
@@ -276,23 +307,154 @@
     }
   ],
   "additionalAirlines": [
-    { "name": "Vistara", "phone": "+91-9289-228-228" },
-    { "name": "Kuwait Airways", "phone": "+965-2434-5555" }
+    {
+      "name": "Vistara",
+      "phone": "+91-9289-228-228"
+    },
+    {
+      "name": "Kuwait Airways",
+      "phone": "+965-2434-5555"
+    }
   ],
   "disclaimer": "This is an AI-aggregated resource hub. Information is for reference only. Verify all details with official government and airline sources before acting. This is NOT an official government entity. Data last verified: March 2, 2026.",
   "sources": [
-    { "name": "CGI Dubai Official", "url": "https://www.cgidubai.gov.in/page/hotlines-24x7/" },
-    { "name": "Embassy Abu Dhabi Official", "url": "https://www.indembassyuae.gov.in/hotlines.php" },
-    { "name": "Embassy Tehran Official", "url": "https://www.indianembassytehran.gov.in/eoithr_listview/NTM3" },
-    { "name": "Embassy Qatar Official", "url": "https://www.indianembassyqatar.gov.in/contact" },
-    { "name": "Embassy Muscat Official", "url": "https://www.indemb-oman.gov.in/page/24-hour-emergency-helpline/" },
-    { "name": "CBSE Official Circular", "url": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf" },
-    { "name": "MADAD Portal", "url": "https://www.madad.gov.in" },
-    { "name": "Embassy Riyadh Official", "url": "https://www.eoiriyadh.gov.in/page/contact-us/" },
-    { "name": "CGI Jeddah Official", "url": "https://www.cgijeddah.gov.in" },
-    { "name": "Embassy Kuwait Official", "url": "https://indembkwt.gov.in" },
-    { "name": "Embassy Bahrain Official", "url": "https://www.eoibahrain.gov.in/contact-us.php" },
-    { "name": "Indian Express Crisis Contact List", "url": "https://indianexpress.com/article/world/iran-israel-war-indian-embassies-advisories-emergency-contact-numbers-country-wise-details-10558147/" }
+    {
+      "name": "CGI Dubai Official",
+      "url": "https://www.cgidubai.gov.in/page/hotlines-24x7/"
+    },
+    {
+      "name": "Embassy Abu Dhabi Official",
+      "url": "https://www.indembassyuae.gov.in/hotlines.php"
+    },
+    {
+      "name": "Embassy Tehran Official",
+      "url": "https://www.indianembassytehran.gov.in/eoithr_listview/NTM3"
+    },
+    {
+      "name": "Embassy Qatar Official",
+      "url": "https://www.indianembassyqatar.gov.in/contact"
+    },
+    {
+      "name": "Embassy Muscat Official",
+      "url": "https://www.indemb-oman.gov.in/page/24-hour-emergency-helpline/"
+    },
+    {
+      "name": "CBSE Official Circular",
+      "url": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf"
+    },
+    {
+      "name": "MADAD Portal",
+      "url": "https://www.madad.gov.in"
+    },
+    {
+      "name": "Embassy Riyadh Official",
+      "url": "https://www.eoiriyadh.gov.in/page/contact-us/"
+    },
+    {
+      "name": "CGI Jeddah Official",
+      "url": "https://www.cgijeddah.gov.in"
+    },
+    {
+      "name": "Embassy Kuwait Official",
+      "url": "https://indembkwt.gov.in"
+    },
+    {
+      "name": "Embassy Bahrain Official",
+      "url": "https://www.eoibahrain.gov.in/contact-us.php"
+    },
+    {
+      "name": "Indian Express Crisis Contact List",
+      "url": "https://indianexpress.com/article/world/iran-israel-war-indian-embassies-advisories-emergency-contact-numbers-country-wise-details-10558147/"
+    }
   ],
-  "advisories": []
+  "advisories": [
+    {
+      "id": "kwi-airport-drone-hit",
+      "date": "2026-03-02",
+      "time": "04:38",
+      "category": "safety",
+      "title": "Kuwait Airport Hit by Iranian Drone",
+      "summary": "Kuwait International Airport (KWI) took a direct hit from an Iranian drone, causing damage inside the terminal building.",
+      "source": "Aviation Week",
+      "sourceUrl": "https://aviationweek.com/air-transport/safety-ops-regulation/airports-struck-airlines-cancel-flight-iran-war-fallout",
+      "severity": "high"
+    },
+    {
+      "id": "dxb-auh-casualties",
+      "date": "2026-03-02",
+      "time": "04:13",
+      "category": "safety",
+      "title": "Casualties Reported at UAE Airports",
+      "summary": "1 death and 11 injuries at DXB/AUH airports from drone and missile debris. UAE intercepted 137 missiles and 209 drones. DXB Terminal 3 roof penetrated by drone with 4 workers injured.",
+      "source": "The Sunday Guardian",
+      "sourceUrl": "https://sundayguardianlive.com/world/india-stands-with-uae-pm-modi-speaks-to-president-al-nahyan-amid-israel-iran-missile-strikes-173390/",
+      "severity": "high"
+    },
+    {
+      "id": "iran-notam-airspace-closed-mar3",
+      "date": "2026-03-02",
+      "time": "04:38",
+      "category": "aviation",
+      "title": "Iran Airspace Closed Through March 3",
+      "summary": "Iran NOTAM extends airspace closure through at least March 3. This goes beyond DGCA's current advisory which was valid until March 2. Airlines planning phased restarts depend on airspace reopening.",
+      "source": "Aviation Week",
+      "sourceUrl": "https://aviationweek.com/air-transport/safety-ops-regulation/airports-struck-airlines-cancel-flight-iran-war-fallout",
+      "severity": "high"
+    },
+    {
+      "id": "uae-distance-learning-mar2-4",
+      "date": "2026-03-02",
+      "time": "04:38",
+      "category": "education",
+      "title": "UAE Schools Shift to Distance Learning (Mar 2-4)",
+      "summary": "UAE Ministry of Education directed all schools to shift to distance learning from March 2 to 4. School transport, after-school activities, clubs, and external programmes suspended.",
+      "source": "Khaleej Times",
+      "sourceUrl": "https://www.khaleejtimes.com/uae/education/cbse-to-update-uae-schools-class-10-12-board-exams-regional-tensions",
+      "severity": "medium"
+    },
+    {
+      "id": "icse-isc-exams-gulf-reschedule-request",
+      "date": "2026-03-02",
+      "time": "04:38",
+      "category": "education",
+      "title": "ICSE/ISC Schools Request Exam Rescheduling",
+      "summary": "UAE schools collectively writing to CISCE (ICSE/ISC board) to request rescheduling of upcoming board exam papers. Class 10 exams run until March 30, Class 12 until April 6. No CISCE decision yet.",
+      "source": "Khaleej Times",
+      "sourceUrl": "https://www.khaleejtimes.com/uae/education/cbse-to-update-uae-schools-class-10-12-board-exams-regional-tensions",
+      "severity": "medium"
+    },
+    {
+      "id": "insurance-war-exclusion",
+      "date": "2026-03-02",
+      "time": "04:13",
+      "category": "financial",
+      "title": "Travel Insurance May Not Cover This Crisis",
+      "summary": "Standard travel insurance policies exclude acts of war. If you purchased travel insurance before the crisis, check your policy for war/terrorism exclusions. War-risk premium add-ons cost approximately $8 per trip.",
+      "source": "VisaHQ",
+      "sourceUrl": "https://www.visahq.com/news/2025-02-28/in/indian-airlines-halt-middle-east-services-after-dgca-emergency-directive/",
+      "severity": "medium"
+    },
+    {
+      "id": "kerala-norka-helpdesk",
+      "date": "2026-03-02",
+      "time": "04:13",
+      "category": "advisory",
+      "title": "Kerala NORKA Helpdesk for Gulf Expatriates",
+      "summary": "Kerala's NORKA (Non-Resident Keralites Affairs) department has set up a dedicated helpdesk for Gulf expatriates affected by the crisis.",
+      "source": "NORKA Kerala",
+      "sourceUrl": "https://www.norkaroots.org",
+      "severity": "low"
+    },
+    {
+      "id": "doha-embassy-emergency-only",
+      "date": "2026-03-02",
+      "time": "04:13",
+      "category": "advisory",
+      "title": "Doha Embassy: Emergency Services Only",
+      "summary": "Indian Embassy in Doha has shifted to emergency-only mode. Regular consular services (passport, visa, attestation) are temporarily closed. For emergencies only: +974-55647502.",
+      "source": "Embassy of India, Doha",
+      "sourceUrl": "https://www.indianembassyqatar.gov.in",
+      "severity": "medium"
+    }
+  ]
 }
