@@ -15,16 +15,6 @@
   <link rel="stylesheet" href="./base.css">
   <link rel="stylesheet" href="./style.css">
 
-  <!-- Analytics: GoatCounter (privacy-friendly, no cookies, ~3.5KB) -->
-  <!-- Dashboard: https://gulf-crisis-hub.goatcounter.com -->
-  <script data-goatcounter="https://gulf-crisis-hub.goatcounter.com/count"
-          async src="https://gc.zgo.at/count.js"></script>
-
-  <!-- Fallback: if the external script is blocked by CSP/proxy, fire a tracking pixel -->
-  <noscript>
-    <img src="https://gulf-crisis-hub.goatcounter.com/count?p=/&t=Gulf-India%20Crisis%20Resource%20Hub"
-         alt="" style="position:absolute;left:-9999px">
-  </noscript>
 </head>
 <body>
 
@@ -144,22 +134,5 @@
   <!-- APP LOGIC -->
   <script src="./app.js" defer></script>
 
-  <!-- GoatCounter fallback: if count.js was blocked, send a hit via the pixel API -->
-  <script>
-  (function(){
-    // Wait 3s, then check if GoatCounter's global was set
-    setTimeout(function(){
-      if (window.goatcounter && window.goatcounter.count) return; // count.js loaded fine
-      // Fallback: send a tracking pixel via Image beacon
-      var img = new Image();
-      var loc = encodeURIComponent(location.pathname + location.search);
-      var ref = encodeURIComponent(document.referrer);
-      var title = encodeURIComponent(document.title);
-      var screen = encodeURIComponent(window.innerWidth + 'x' + window.innerHeight);
-      img.src = 'https://gulf-crisis-hub.goatcounter.com/count?p=' + loc
-        + '&t=' + title + '&r=' + ref + '&s=' + screen + '&rnd=' + Math.random();
-    }, 3000);
-  })();
-  </script>
 </body>
 </html>
