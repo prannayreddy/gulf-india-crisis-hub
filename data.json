@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-02T03:52:00+05:30",
+  "lastUpdated": "2026-03-02T04:22:55+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
     "title": "CBSE EXAMS POSTPONED (MARCH 2)",
-    "subtitle": "Official Notice Inside \u2014 7 Gulf Countries Affected",
+    "subtitle": "Official Notice Inside — 7 Gulf Countries Affected",
     "alertLevel": "HIGH"
   },
   "cbse": {
@@ -118,7 +118,7 @@
   "madad": {
     "url": "https://www.madad.gov.in",
     "helpline": "1800-11-3090",
-    "description": "MEA's Consular Services Management System \u2014 Register for assistance abroad"
+    "description": "MEA's Consular Services Management System — Register for assistance abroad"
   },
   "airlines": [
     {
@@ -129,7 +129,7 @@
       "contactUrl": "https://www.airindia.com/in/en/contact-us.html",
       "phone": "1800-5691-444",
       "whatsapp": "+91-96670-34444",
-      "crisisNote": "50+ flights cancelled March 1. Gulf routes suspended. Transatlantic rerouted via Rome."
+      "crisisNote": "81+ flights cancelled (31 Gulf, 50 Europe/US). Gulf + Europe routes suspended (London, Birmingham, Amsterdam, Zurich, Milan, Vienna, Copenhagen, Frankfurt). Free rebooking or full refund for bookings before Feb 28, travel until March 5."
     },
     {
       "name": "IndiGo",
@@ -138,7 +138,7 @@
       "refundUrl": "https://www.goindigo.in/information/cancellation-refund-policy.html",
       "contactUrl": "https://www.goindigo.in/information/customer-care.html",
       "phone": "+91-124-4973838",
-      "crisisNote": "Multiple March 2 Gulf flights cancelled due to airspace restrictions."
+      "crisisNote": "All Middle East flights suspended until March 2, 2359 IST. Free rebooking or full refund for bookings made before Feb 28, travel until March 7."
     },
     {
       "name": "Emirates",
@@ -147,7 +147,7 @@
       "refundUrl": "https://www.emirates.com/english/help/forms/refund-request/",
       "contactUrl": "https://www.emirates.com/english/help/",
       "phone": "+971-600-555-555",
-      "crisisNote": "ALL operations suspended from DXB until further notice."
+      "crisisNote": "ALL operations suspended from DXB until March 2, 15:00 UAE time. Rebook by March 20 or request full refund for travel on/before March 5."
     },
     {
       "name": "Etihad Airways",
@@ -156,7 +156,7 @@
       "refundUrl": "https://www.etihad.com/en/manage/manage-booking",
       "contactUrl": "https://www.etihad.com/en/help",
       "phone": "+971-600-555-666",
-      "crisisNote": "All flights to/from Abu Dhabi suspended. Fee-free rebooking and full refunds available."
+      "crisisNote": "All flights to/from Abu Dhabi suspended until March 2, 02:00 UAE time. Fee-free rebooking and full refunds available."
     },
     {
       "name": "SpiceJet",
@@ -174,7 +174,7 @@
       "refundUrl": "https://www.airindiaexpress.com/manage-booking",
       "contactUrl": "https://www.airindiaexpress.com/contact-us",
       "whatsapp": "+91-6360012345",
-      "crisisNote": "Suspended flights to Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, UAE until March 2. Free rebooking/refund for bookings made before Feb 28."
+      "crisisNote": "Suspended flights to Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, UAE until March 2, 2359 IST. Free rebooking or full refund for bookings before Feb 28, travel until March 5."
     },
     {
       "name": "FlyDubai",
@@ -183,7 +183,7 @@
       "refundUrl": "https://www.flydubai.com/en/manage/manage-booking",
       "contactUrl": "https://www.flydubai.com/en/contact-us",
       "phone": "+971-600-544-445",
-      "crisisNote": "All operations suspended from DXB. Monitoring situation closely."
+      "crisisNote": "All operations suspended from DXB until March 2, 15:00 UAE time. Monitoring situation closely."
     },
     {
       "name": "Qatar Airways",
@@ -192,7 +192,7 @@
       "refundUrl": "https://www.qatarairways.com/en/manage-booking.html",
       "contactUrl": "https://www.qatarairways.com/en/help.html",
       "phone": "000-800-040-4657",
-      "crisisNote": "Temporary suspension of flights to/from Doha due to Qatari airspace closure. Penalties waived for affected passengers."
+      "crisisNote": "All operations suspended due to Qatari airspace closure. Update expected March 2 by 09:00 Doha time. Penalties waived for affected passengers."
     },
     {
       "name": "Akasa Air",
@@ -210,7 +210,7 @@
       "refundUrl": "https://www.gulfair.com/flying-with-us/before-you-travel/check-in",
       "contactUrl": "https://www.gulfair.com/contact-us",
       "phone": "1800-123-7474",
-      "crisisNote": "Bahrain national carrier. Flights affected due to airspace closures."
+      "crisisNote": "All operations suspended from BAH. Bahrain intercepted Iranian missiles/drones. Awaiting update on resumption."
     },
     {
       "name": "Oman Air",
@@ -219,7 +219,7 @@
       "refundUrl": "https://www.omanair.com/en/manage-bookings",
       "contactUrl": "https://www.omanair.com/en/contact-us",
       "phone": "+968-2453-1111",
-      "crisisNote": "Muscat operations disrupted. Check manage booking for refund/rebooking options."
+      "crisisNote": "Some cancellations and disruptions at MCT. Baghdad flights suspended. Check manage booking for refund/rebooking options."
     },
     {
       "name": "Air Arabia",
@@ -228,7 +228,7 @@
       "refundUrl": "https://www.airarabia.com/en/manage-booking",
       "contactUrl": "https://www.airarabia.com/en/Help/Contact-Us/Call-Centre",
       "phone": "+971-6-558-0000",
-      "crisisNote": "UAE-based low-cost carrier. Operations suspended due to airspace closures."
+      "crisisNote": "Operations suspended from SHJ until March 2, 15:00 UAE time due to airspace closures."
     }
   ],
   "airports": [
@@ -242,7 +242,7 @@
       "code": "DOH",
       "name": "Hamad International, Doha",
       "flightStatusUrl": "https://dohahamadairport.com/airlines/flight-status",
-      "status": "SEVERELY DISRUPTED"
+      "status": "ALL OPERATIONS SUSPENDED"
     },
     {
       "code": "AUH",
