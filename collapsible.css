@@ -77,10 +77,10 @@
   letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-text-faint);
   padding: var(--space-4) 0 var(--space-2);
 }
-.airline-summary { flex: 1; min-width: 0; }
-.airline-summary__name { font-family: var(--font-display); font-weight: 600; font-size: var(--text-sm); color: var(--color-text); }
+.airline-summary { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.airline-summary__name { display: block; font-family: var(--font-display); font-weight: 600; font-size: var(--text-sm); color: var(--color-text); }
 .airline-summary__excerpt {
-  font-size: var(--text-xs); color: var(--color-text-muted); white-space: nowrap;
+  display: block; font-size: var(--text-xs); color: var(--color-text-muted); white-space: nowrap;
   overflow: hidden; text-overflow: ellipsis; max-width: 280px; margin-top: var(--space-1);
 }
 @media (max-width: 480px) { .airline-summary__excerpt { max-width: 180px; } }
