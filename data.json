@@ -175,7 +175,7 @@
     {
       "name": "FlyDubai",
       "logo": "flydubai",
-      "flightStatusUrl": "https://www.flydubai.com/en/manage/flight-status",
+      "flightStatusUrl": "https://www.flydubai.com/en/flying-with-us/flight-status",
       "refundUrl": "https://www.flydubai.com/en/manage/manage-booking",
       "contactUrl": "https://www.flydubai.com/en/contact-us",
       "phone": "+971-600-544-445",
@@ -184,7 +184,7 @@
     {
       "name": "Qatar Airways",
       "logo": "qatarairways",
-      "flightStatusUrl": "https://www.qatarairways.com/en/trip-planner/flight-status.html",
+      "flightStatusUrl": "https://fs.qatarairways.com/flightstatus/search",
       "refundUrl": "https://www.qatarairways.com/en/manage-booking.html",
       "contactUrl": "https://www.qatarairways.com/en/help.html",
       "phone": "000-800-040-4657",
@@ -202,8 +202,8 @@
     {
       "name": "Gulf Air",
       "logo": "gulfair",
-      "flightStatusUrl": "https://www.gulfair.com/manage-booking/flight-status",
-      "refundUrl": "https://www.gulfair.com/manage-booking",
+      "flightStatusUrl": "https://www.gulfair.com/en/flying-with-us/before-you-travel/flight-status",
+      "refundUrl": "https://www.gulfair.com/flying-with-us/before-you-travel/check-in",
       "contactUrl": "https://www.gulfair.com/contact-us",
       "phone": "1800-123-7474",
       "crisisNote": "Bahrain national carrier. Flights affected due to airspace closures."
@@ -243,25 +243,25 @@
     {
       "code": "AUH",
       "name": "Zayed International, Abu Dhabi",
-      "flightStatusUrl": "https://www.abudhabiairport.ae/en/flights",
+      "flightStatusUrl": "https://www.zayedinternationalairport.ae/en/flights-and-check-in/flight-status/arrivals",
       "status": "ALL OPERATIONS SUSPENDED"
     },
     {
       "code": "SHJ",
       "name": "Sharjah International",
-      "flightStatusUrl": "https://www.sharjahairport.ae/en/flights/",
+      "flightStatusUrl": "https://www.sharjahairport.ae/en/traveller/flight-information/",
       "status": "ALL OPERATIONS SUSPENDED"
     },
     {
       "code": "KWI",
       "name": "Kuwait International",
-      "flightStatusUrl": "https://www.dgca.gov.kw/en/flight-information",
+      "flightStatusUrl": "https://www.kuwaitairport.gov.kw/en/",
       "status": "ALL OPERATIONS SUSPENDED"
     },
     {
       "code": "BAH",
       "name": "Bahrain International",
-      "flightStatusUrl": "https://www.bahrainairport.bh/flights",
+      "flightStatusUrl": "https://www.bahrainairport.bh/flight-arrivals",
       "status": "ALL OPERATIONS SUSPENDED"
     },
     {
