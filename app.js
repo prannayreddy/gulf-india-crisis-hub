@@ -49,7 +49,7 @@
   // HELPERS
   // ==========================================
   function cleanPhone(num) {
-    return num.replace(/[^+\d]/g, '');
+    return num.replace(/[^+\\d]/g, '');
   }
 
   function waLink(num) {
@@ -92,6 +92,7 @@
     renderStatusBadge(data);
     renderLastUpdated(data);
     renderActionButtons(data);
+    renderAdvisories(data);
     renderEmbassies(data);
     renderCBSE(data);
     renderAirlines(data);
@@ -146,6 +147,47 @@
         <span class="action-btn__arrow" aria-hidden="true">${ICONS.externalLink}</span>
       </a>
     `;
+  }
+
+  // --- Advisories ---
+  function renderAdvisories(data) {
+    if (!data.advisories || data.advisories.length === 0) return;
+
+    let advisoriesSection = document.getElementById('section-advisories');
+    if (!advisoriesSection) {
+      advisoriesSection = document.createElement('section');
+      advisoriesSection.id = 'section-advisories';
+      advisoriesSection.className = 'section';
+      advisoriesSection.setAttribute('aria-labelledby', 'advisories-title');
+      advisoriesSection.innerHTML = `
+        <div class="section__inner">
+          <div class="section__header">
+            <span class="section__overline">Latest Updates</span>
+            <h2 id="advisories-title" class="section__title">New Advisories</h2>
+          </div>
+          <div id="advisories-content" class="card-grid"></div>
+        </div>
+      `;
+      const main = document.getElementById('main-content');
+      const firstSection = main.querySelector('.section');
+      if (firstSection) {
+        main.insertBefore(advisoriesSection, firstSection);
+      } else {
+        main.appendChild(advisoriesSection);
+      }
+    }
+
+    const advisoriesContent = document.getElementById('advisories-content') || advisoriesSection.querySelector('.card-grid');
+    advisoriesContent.innerHTML = data.advisories.map(a => `
+      <div class="card card--advisory">
+        <div class="card__header">
+          <h3 class="card__title">${escHtml(a.title)}</h3>
+          ${a.timestamp ? `<time class="card__meta">${new Date(a.timestamp).toLocaleString('en-IN', {timeZone: 'Asia/Kolkata'})}</time>` : ''}
+        </div>
+        <p class="card__body">${escHtml(a.body)}</p>
+        ${a.source && a.sourceUrl ? `<a href="${a.sourceUrl}" target="_blank" rel="noopener noreferrer" class="card__link">Source: ${escHtml(a.source)}</a>` : ''}
+      </div>
+    `).join('');
   }
 
   // --- Embassies ---

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T01:17:00+05:30",
+  "lastUpdated": "2026-03-02T02:23:00+05:30",
   "crisisStatus": "ACTIVE",
   "banner": {
     "title": "CBSE EXAMS POSTPONED (MARCH 2)",
@@ -63,6 +63,45 @@
       "whatsapp": "+968-98282270",
       "email": "cw.muscat@mea.gov.in",
       "website": "https://www.indemb-oman.gov.in"
+    },
+    {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "mission": "Embassy of India, Riyadh",
+      "emergency": "+966-11-4884697",
+      "tollFree": "800-247-1234",
+      "whatsapp": "+966-542126748",
+      "email": "cw.riyadh@mea.gov.in",
+      "website": "https://www.eoiriyadh.gov.in"
+    },
+    {
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "mission": "Consulate General of India, Jeddah",
+      "emergency": "+966-126648660",
+      "tollFree": "800-244-0003",
+      "whatsapp": "+966-536209704",
+      "email": "conscw.jeddah@mea.gov.in",
+      "website": "https://www.cgijeddah.gov.in"
+    },
+    {
+      "city": "Kuwait City",
+      "country": "Kuwait",
+      "mission": "Embassy of India, Kuwait",
+      "emergency": "+965-65501946",
+      "additionalNumbers": ["+965-22530600", "+965-65809348"],
+      "whatsapp": "+965-65501946",
+      "email": "community.kuwait@mea.gov.in",
+      "website": "https://indembkwt.gov.in"
+    },
+    {
+      "city": "Manama",
+      "country": "Bahrain",
+      "mission": "Embassy of India, Bahrain",
+      "emergency": "+973-39418071",
+      "additionalNumbers": ["+973-38400433", "+973-17560360"],
+      "email": "cons.bahrain@mea.gov.in",
+      "website": "https://www.eoibahrain.gov.in"
     }
   ],
   "meaCentral": {
@@ -105,6 +144,87 @@
       "contactUrl": "https://www.emirates.com/english/help/",
       "phone": "+971-600-555-555",
       "crisisNote": "ALL operations suspended from DXB until further notice."
+    },
+    {
+      "name": "Etihad Airways",
+      "logo": "etihad",
+      "flightStatusUrl": "https://www.etihad.com/en/manage/flight-status",
+      "refundUrl": "https://www.etihad.com/en/manage/manage-booking",
+      "contactUrl": "https://www.etihad.com/en/help",
+      "phone": "+971-600-555-666",
+      "crisisNote": "All flights to/from Abu Dhabi suspended. Fee-free rebooking and full refunds available."
+    },
+    {
+      "name": "SpiceJet",
+      "logo": "spicejet",
+      "flightStatusUrl": "https://www.spicejet.com/FlightStatus.aspx",
+      "refundUrl": "https://www.spicejet.com/ManageBooking",
+      "contactUrl": "https://www.spicejet.com/ContactUs",
+      "phone": "+91-124-4983410",
+      "crisisNote": "All India-UAE flights cancelled. Check website for refund and rebooking."
+    },
+    {
+      "name": "Air India Express",
+      "logo": "airindiaexpress",
+      "flightStatusUrl": "https://www.airindiaexpress.com/manage-booking",
+      "refundUrl": "https://www.airindiaexpress.com/manage-booking",
+      "contactUrl": "https://www.airindiaexpress.com/contact-us",
+      "whatsapp": "+91-6360012345",
+      "crisisNote": "Suspended flights to Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, UAE until March 2. Free rebooking/refund for bookings made before Feb 28."
+    },
+    {
+      "name": "FlyDubai",
+      "logo": "flydubai",
+      "flightStatusUrl": "https://www.flydubai.com/en/manage/flight-status",
+      "refundUrl": "https://www.flydubai.com/en/manage/manage-booking",
+      "contactUrl": "https://www.flydubai.com/en/contact-us",
+      "phone": "+971-600-544-445",
+      "crisisNote": "All operations suspended from DXB. Monitoring situation closely."
+    },
+    {
+      "name": "Qatar Airways",
+      "logo": "qatarairways",
+      "flightStatusUrl": "https://www.qatarairways.com/en/trip-planner/flight-status.html",
+      "refundUrl": "https://www.qatarairways.com/en/manage-booking.html",
+      "contactUrl": "https://www.qatarairways.com/en/help.html",
+      "phone": "000-800-040-4657",
+      "crisisNote": "Temporary suspension of flights to/from Doha due to Qatari airspace closure. Penalties waived for affected passengers."
+    },
+    {
+      "name": "Akasa Air",
+      "logo": "akasaair",
+      "flightStatusUrl": "https://www.akasaair.com/manage-booking/flight-status",
+      "refundUrl": "https://www.akasaair.com/manage-booking/refund-status",
+      "contactUrl": "https://www.akasaair.com/customer-support",
+      "phone": "+91-9606-112131",
+      "crisisNote": "Suspended flights to Abu Dhabi, Doha, Jeddah, Kuwait, Riyadh until March 2. Full refund or free reschedule for bookings before March 7."
+    },
+    {
+      "name": "Gulf Air",
+      "logo": "gulfair",
+      "flightStatusUrl": "https://www.gulfair.com/manage-booking/flight-status",
+      "refundUrl": "https://www.gulfair.com/manage-booking",
+      "contactUrl": "https://www.gulfair.com/contact-us",
+      "phone": "1800-123-7474",
+      "crisisNote": "Bahrain national carrier. Flights affected due to airspace closures."
+    },
+    {
+      "name": "Oman Air",
+      "logo": "omanair",
+      "flightStatusUrl": "https://www.omanair.com/en/flight-status",
+      "refundUrl": "https://www.omanair.com/en/manage-bookings",
+      "contactUrl": "https://www.omanair.com/en/contact-us",
+      "phone": "+968-2453-1111",
+      "crisisNote": "Muscat operations disrupted. Check manage booking for refund/rebooking options."
+    },
+    {
+      "name": "Air Arabia",
+      "logo": "airarabia",
+      "flightStatusUrl": "https://www.airarabia.com/en/flight-status",
+      "refundUrl": "https://www.airarabia.com/en/manage-booking",
+      "contactUrl": "https://www.airarabia.com/en/Help/Contact-Us/Call-Centre",
+      "phone": "+971-6-558-0000",
+      "crisisNote": "UAE-based low-cost carrier. Operations suspended due to airspace closures."
     }
   ],
   "airports": [
@@ -119,13 +239,41 @@
       "name": "Hamad International, Doha",
       "flightStatusUrl": "https://dohahamadairport.com/airlines/flight-status",
       "status": "SEVERELY DISRUPTED"
+    },
+    {
+      "code": "AUH",
+      "name": "Zayed International, Abu Dhabi",
+      "flightStatusUrl": "https://www.abudhabiairport.ae/en/flights",
+      "status": "ALL OPERATIONS SUSPENDED"
+    },
+    {
+      "code": "SHJ",
+      "name": "Sharjah International",
+      "flightStatusUrl": "https://www.sharjahairport.ae/en/flights/",
+      "status": "ALL OPERATIONS SUSPENDED"
+    },
+    {
+      "code": "KWI",
+      "name": "Kuwait International",
+      "flightStatusUrl": "https://www.dgca.gov.kw/en/flight-information",
+      "status": "ALL OPERATIONS SUSPENDED"
+    },
+    {
+      "code": "BAH",
+      "name": "Bahrain International",
+      "flightStatusUrl": "https://www.bahrainairport.bh/flights",
+      "status": "ALL OPERATIONS SUSPENDED"
+    },
+    {
+      "code": "DWC",
+      "name": "Al Maktoum International (DWC)",
+      "flightStatusUrl": "https://www.dubaiairports.ae/flight-status",
+      "status": "ALL OPERATIONS SUSPENDED"
     }
   ],
   "additionalAirlines": [
-    { "name": "Etihad", "phone": "+971-600-555-666" },
-    { "name": "SpiceJet", "phone": "+91-124-4983410" },
-    { "name": "Air India Express", "whatsapp": "+91-6360012345" },
-    { "name": "FlyDubai", "phone": "+971-600-544-445" }
+    { "name": "Vistara", "phone": "+91-9289-228-228" },
+    { "name": "Kuwait Airways", "phone": "+965-2434-5555" }
   ],
   "disclaimer": "This is an AI-aggregated resource hub. Information is for reference only. Verify all details with official government and airline sources before acting. This is NOT an official government entity. Data last verified: March 2, 2026.",
   "sources": [
@@ -135,6 +283,12 @@
     { "name": "Embassy Qatar Official", "url": "https://www.indianembassyqatar.gov.in/contact" },
     { "name": "Embassy Muscat Official", "url": "https://www.indemb-oman.gov.in/page/24-hour-emergency-helpline/" },
     { "name": "CBSE Official Circular", "url": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf" },
-    { "name": "MADAD Portal", "url": "https://www.madad.gov.in" }
-  ]
+    { "name": "MADAD Portal", "url": "https://www.madad.gov.in" },
+    { "name": "Embassy Riyadh Official", "url": "https://www.eoiriyadh.gov.in/page/contact-us/" },
+    { "name": "CGI Jeddah Official", "url": "https://www.cgijeddah.gov.in" },
+    { "name": "Embassy Kuwait Official", "url": "https://indembkwt.gov.in" },
+    { "name": "Embassy Bahrain Official", "url": "https://www.eoibahrain.gov.in/contact-us.php" },
+    { "name": "Indian Express Crisis Contact List", "url": "https://indianexpress.com/article/world/iran-israel-war-indian-embassies-advisories-emergency-contact-numbers-country-wise-details-10558147/" }
+  ],
+  "advisories": []
 }
