@@ -32,6 +32,8 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./base.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./collapsible.css">
+  <link rel="stylesheet" href="./feed.css">
   <link rel="stylesheet" href="./monitoring.css">
 
 </head>
@@ -59,9 +61,6 @@
     </div>
   </header>
 
-  <!-- LAST UPDATED -->
-  <div id="last-updated" class="last-updated" aria-live="polite"></div>
-
   <!-- MONITORING STATUS -->
   <div id="monitoring-status" class="monitoring-status" aria-live="polite"></div>
 
@@ -75,6 +74,20 @@
       <div class="skeleton skeleton-btn" style="width:100%"></div>
     </nav>
 
+    <!-- LIVE UPDATES FEED -->
+    <section id="section-feed" class="section" aria-labelledby="feed-title">
+      <div class="section__inner">
+        <div class="section__header">
+          <span class="section__overline">Live Updates</span>
+          <h2 id="feed-title" class="section__title">Latest Updates</h2>
+        </div>
+        <div id="feed-content">
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- EMBASSY HELPLINES -->
     <section id="section-embassies" class="section" aria-labelledby="embassies-title">
       <div class="section__inner">
@@ -83,14 +96,13 @@
           <h2 id="embassies-title" class="section__title">Embassy &amp; Consulate Helplines</h2>
           <p class="section__desc">Tap any number to call directly. WhatsApp links open in the app.</p>
         </div>
-        <div id="embassy-cards" class="card-grid">
+        <div id="embassy-cards">
           <!-- Skeleton cards -->
           <div class="skeleton skeleton-card"></div>
           <div class="skeleton skeleton-card"></div>
           <div class="skeleton skeleton-card"></div>
           <div class="skeleton skeleton-card"></div>
         </div>
-        <div id="mea-card" style="margin-top: var(--space-4);"></div>
       </div>
     </section>
 
@@ -122,7 +134,7 @@
         <div id="airport-status" style="margin-bottom: var(--space-6);"></div>
 
         <!-- Airline cards -->
-        <div id="airline-cards" class="card-grid">
+        <div id="airline-cards">
           <div class="skeleton skeleton-card"></div>
           <div class="skeleton skeleton-card"></div>
           <div class="skeleton skeleton-card"></div>
