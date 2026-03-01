@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T04:22:55+05:30",
+  "lastUpdated": "2026-03-02T04:37:11+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
@@ -156,7 +156,7 @@
       "refundUrl": "https://www.etihad.com/en/manage/manage-booking",
       "contactUrl": "https://www.etihad.com/en/help",
       "phone": "+971-600-555-666",
-      "crisisNote": "All flights to/from Abu Dhabi suspended until March 2, 02:00 UAE time. Fee-free rebooking and full refunds available."
+      "crisisNote": "All flights to/from Abu Dhabi suspended until March 2, 14:00 (2 PM) UAE time. Free rebook on Etihad flights until March 15 for bookings before Feb 28. Full refund for cancelled flights via etihad.com/help or travel agent."
     },
     {
       "name": "SpiceJet",
