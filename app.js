@@ -49,7 +49,7 @@
   // HELPERS
   // ==========================================
   function cleanPhone(num) {
-    return num.replace(/[^+\\d]/g, '');
+    return num.replace(/[^+0-9]/g, '');
   }
 
   function waLink(num) {
@@ -103,7 +103,7 @@
   function renderBanner(data) {
     const el = document.getElementById('top-banner');
     el.innerHTML = `
-      <a href="${data.cbse.circularUrl}" target="_blank" rel="noopener noreferrer" class="top-banner" aria-label="${data.banner.title} — tap to view official CBSE notice">
+      <a href="${data.cbse.circularUrl}" target="_blank" rel="noopener noreferrer" class="top-banner" aria-label="${data.banner.title} \u2014 tap to view official CBSE notice">
         <div class="top-banner__title">${escHtml(data.banner.title)}</div>
         <div class="top-banner__sub">${escHtml(data.banner.subtitle)}</div>
       </a>
@@ -141,7 +141,7 @@
         <span class="action-btn__text">Airline Rebooking &amp; Refund Links</span>
         <span class="action-btn__arrow" aria-hidden="true">${ICONS.chevron}</span>
       </button>
-      <a href="${data.madad.url}" target="_blank" rel="noopener noreferrer" class="action-btn action-btn--madad" aria-label="Register on MADAD portal — opens in new tab">
+      <a href="${data.madad.url}" target="_blank" rel="noopener noreferrer" class="action-btn action-btn--madad" aria-label="Register on MADAD portal \u2014 opens in new tab">
         <span class="action-btn__icon" aria-hidden="true">${ICONS.shield}</span>
         <span class="action-btn__text">Register on MADAD Portal</span>
         <span class="action-btn__arrow" aria-hidden="true">${ICONS.externalLink}</span>
@@ -386,7 +386,7 @@
     const addEl = document.getElementById('additional-airlines');
     if (data.additionalAirlines && data.additionalAirlines.length) {
       let addHtml = `<div class="additional-airlines">
-        <div class="additional-airlines__title">Other Airlines — Contact Numbers</div>
+        <div class="additional-airlines__title">Other Airlines \u2014 Contact Numbers</div>
         <div class="additional-airlines__list">`;
 
       data.additionalAirlines.forEach(al => {
