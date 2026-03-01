@@ -3,7 +3,7 @@
   "crisisStatus": "ACTIVE",
   "banner": {
     "title": "CBSE EXAMS POSTPONED (MARCH 2)",
-    "subtitle": "Official Notice Inside — 7 Gulf Countries Affected",
+    "subtitle": "Official Notice Inside \u2014 7 Gulf Countries Affected",
     "alertLevel": "HIGH"
   },
   "cbse": {
@@ -22,9 +22,11 @@
       "mission": "Consulate General of India, Dubai",
       "emergency": "+971-50-7347676",
       "tollFree": "800-46342",
+      "additionalNumbers": ["+971-504559594", "+971-509433111"],
       "whatsapp": "+971-543090571",
       "email": "pbsk.dubai@mea.gov.in",
-      "website": "https://www.cgidubai.gov.in"
+      "website": "https://www.cgidubai.gov.in",
+      "note": "PBSK 24x7 Helpline: +971-543090571"
     },
     {
       "city": "Abu Dhabi",
@@ -32,9 +34,10 @@
       "mission": "Embassy of India, Abu Dhabi",
       "emergency": "+971-50-8995583",
       "tollFree": "800-46342",
-      "whatsapp": "+971-543090571",
+      "additionalNumbers": ["+971-564038863", "+971-502103813"],
       "email": "ca.abudhabi@mea.gov.in",
-      "website": "https://www.indembassyuae.gov.in"
+      "website": "https://www.indembassyuae.gov.in",
+      "note": "Death Emergency: +971-564038863 | Female Workers Distress: +971-502103813"
     },
     {
       "city": "Tehran",
@@ -114,7 +117,7 @@
   "madad": {
     "url": "https://www.madad.gov.in",
     "helpline": "1800-11-3090",
-    "description": "MEA's Consular Services Management System — Register for assistance abroad"
+    "description": "MEA's Consular Services Management System \u2014 Register for assistance abroad"
   },
   "airlines": [
     {
