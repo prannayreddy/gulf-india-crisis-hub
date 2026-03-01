@@ -1,0 +1,299 @@
+/* base.css — Gulf-India Crisis Resource Hub */
+
+/* ==========================================
+   DESIGN TOKENS
+   ========================================== */
+
+:root {
+  /* --- Fluid Type Scale --- */
+  --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
+  --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
+  --text-base: clamp(1rem,     0.9rem  + 0.5vw,  1.125rem);
+  --text-lg:   clamp(1.125rem, 0.95rem + 0.85vw, 1.5rem);
+  --text-xl:   clamp(1.5rem,   1rem    + 1.5vw,  2.25rem);
+  --text-2xl:  clamp(2rem,     1.2rem  + 2.5vw,  3.5rem);
+  --text-3xl:  clamp(2.5rem,   1rem    + 4vw,    5rem);
+
+  /* --- 4px Spacing System --- */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* --- Font Families --- */
+  --font-display: 'DM Sans', 'Helvetica Neue', sans-serif;
+  --font-body: 'Inter', 'Helvetica Neue', sans-serif;
+
+  /* --- Radius --- */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* --- Transitions --- */
+  --transition-interactive: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* --- Content Widths --- */
+  --content-narrow: 640px;
+  --content-default: 960px;
+  --content-wide: 1200px;
+  --content-full: 100%;
+}
+
+/* ==========================================
+   CRISIS PALETTE — LIGHT MODE
+   Deep red/amber urgency on clean white.
+   ========================================== */
+
+:root, [data-theme="light"] {
+  /* --- Surfaces (Clean White Foundation) --- */
+  --color-bg:               oklch(0.985 0.002 90);
+  --color-surface:          oklch(0.97 0.003 90);
+  --color-surface-2:        oklch(0.955 0.004 90);
+  --color-surface-offset:   oklch(0.94 0.005 90);
+  --color-surface-offset-2: oklch(0.92 0.006 80);
+  --color-surface-dynamic:  oklch(0.90 0.008 80);
+  --color-divider:          oklch(0.88 0.006 80);
+  --color-border:           oklch(0.84 0.008 80);
+
+  /* --- Text --- */
+  --color-text:        oklch(0.15 0.01 260);
+  --color-text-muted:  oklch(0.45 0.01 260);
+  --color-text-faint:  oklch(0.68 0.008 260);
+  --color-text-inverse: oklch(0.97 0.003 90);
+
+  /* --- Urgency Red (Primary CTA, alerts) --- */
+  --color-primary:          oklch(0.55 0.22 25);
+  --color-primary-hover:    oklch(0.48 0.20 25);
+  --color-primary-active:   oklch(0.40 0.18 25);
+  --color-primary-highlight: oklch(0.93 0.04 25);
+
+  /* --- Warning Amber (secondary alerts) --- */
+  --color-warning:          oklch(0.65 0.18 55);
+  --color-warning-hover:    oklch(0.58 0.16 55);
+  --color-warning-active:   oklch(0.50 0.14 55);
+  --color-warning-highlight: oklch(0.94 0.04 55);
+
+  /* --- Success --- */
+  --color-success:          oklch(0.55 0.14 145);
+  --color-success-hover:    oklch(0.48 0.12 145);
+  --color-success-highlight: oklch(0.93 0.04 145);
+
+  /* --- Info/Blue --- */
+  --color-blue:             oklch(0.52 0.12 240);
+  --color-blue-hover:       oklch(0.45 0.10 240);
+  --color-blue-highlight:   oklch(0.93 0.03 240);
+
+  /* --- Banner Background (deep emergency red) --- */
+  --color-banner-bg:        oklch(0.42 0.18 25);
+  --color-banner-text:      oklch(0.97 0.01 60);
+
+  /* --- Shadows (warm-tinted) --- */
+  --shadow-sm: 0 1px 2px oklch(0.2 0.01 80 / 0.06);
+  --shadow-md: 0 4px 12px oklch(0.2 0.01 80 / 0.08);
+  --shadow-lg: 0 12px 32px oklch(0.2 0.01 80 / 0.12);
+}
+
+/* ==========================================
+   CRISIS PALETTE — DARK MODE
+   ========================================== */
+
+[data-theme="dark"] {
+  --color-bg:               oklch(0.16 0.005 260);
+  --color-surface:          oklch(0.19 0.006 260);
+  --color-surface-2:        oklch(0.22 0.007 260);
+  --color-surface-offset:   oklch(0.20 0.006 260);
+  --color-surface-offset-2: oklch(0.24 0.007 260);
+  --color-surface-dynamic:  oklch(0.28 0.008 260);
+  --color-divider:          oklch(0.26 0.006 260);
+  --color-border:           oklch(0.32 0.008 260);
+
+  --color-text:        oklch(0.90 0.005 90);
+  --color-text-muted:  oklch(0.62 0.008 90);
+  --color-text-faint:  oklch(0.45 0.006 260);
+  --color-text-inverse: oklch(0.16 0.005 260);
+
+  --color-primary:          oklch(0.68 0.18 25);
+  --color-primary-hover:    oklch(0.62 0.20 25);
+  --color-primary-active:   oklch(0.55 0.18 25);
+  --color-primary-highlight: oklch(0.25 0.06 25);
+
+  --color-warning:          oklch(0.75 0.15 55);
+  --color-warning-hover:    oklch(0.68 0.16 55);
+  --color-warning-active:   oklch(0.60 0.14 55);
+  --color-warning-highlight: oklch(0.25 0.05 55);
+
+  --color-success:          oklch(0.65 0.12 145);
+  --color-success-hover:    oklch(0.58 0.12 145);
+  --color-success-highlight: oklch(0.22 0.04 145);
+
+  --color-blue:             oklch(0.62 0.10 240);
+  --color-blue-hover:       oklch(0.55 0.10 240);
+  --color-blue-highlight:   oklch(0.22 0.04 240);
+
+  --color-banner-bg:        oklch(0.35 0.15 25);
+  --color-banner-text:      oklch(0.95 0.01 60);
+
+  --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.2);
+  --shadow-md: 0 4px 12px oklch(0 0 0 / 0.3);
+  --shadow-lg: 0 12px 32px oklch(0 0 0 / 0.4);
+}
+
+/* System preference fallback */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --color-bg:               oklch(0.16 0.005 260);
+    --color-surface:          oklch(0.19 0.006 260);
+    --color-surface-2:        oklch(0.22 0.007 260);
+    --color-surface-offset:   oklch(0.20 0.006 260);
+    --color-surface-offset-2: oklch(0.24 0.007 260);
+    --color-surface-dynamic:  oklch(0.28 0.008 260);
+    --color-divider:          oklch(0.26 0.006 260);
+    --color-border:           oklch(0.32 0.008 260);
+
+    --color-text:        oklch(0.90 0.005 90);
+    --color-text-muted:  oklch(0.62 0.008 90);
+    --color-text-faint:  oklch(0.45 0.006 260);
+    --color-text-inverse: oklch(0.16 0.005 260);
+
+    --color-primary:          oklch(0.68 0.18 25);
+    --color-primary-hover:    oklch(0.62 0.20 25);
+    --color-primary-active:   oklch(0.55 0.18 25);
+    --color-primary-highlight: oklch(0.25 0.06 25);
+
+    --color-warning:          oklch(0.75 0.15 55);
+    --color-warning-hover:    oklch(0.68 0.16 55);
+    --color-warning-active:   oklch(0.60 0.14 55);
+    --color-warning-highlight: oklch(0.25 0.05 55);
+
+    --color-success:          oklch(0.65 0.12 145);
+    --color-success-hover:    oklch(0.58 0.12 145);
+    --color-success-highlight: oklch(0.22 0.04 145);
+
+    --color-blue:             oklch(0.62 0.10 240);
+    --color-blue-hover:       oklch(0.55 0.10 240);
+    --color-blue-highlight:   oklch(0.22 0.04 240);
+
+    --color-banner-bg:        oklch(0.35 0.15 25);
+    --color-banner-text:      oklch(0.95 0.01 60);
+
+    --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.2);
+    --shadow-md: 0 4px 12px oklch(0 0 0 / 0.3);
+    --shadow-lg: 0 12px 32px oklch(0 0 0 / 0.4);
+  }
+}
+
+/* ==========================================
+   BASE RESET & DEFAULTS
+   ========================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  hanging-punctuation: first last;
+  scroll-padding-top: 8rem;
+}
+
+body {
+  min-height: 100dvh;
+  line-height: 1.6;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul[role="list"], ol[role="list"] {
+  list-style: none;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+  line-height: 1.15;
+  font-family: var(--font-display);
+}
+
+p, li, figcaption {
+  text-wrap: pretty;
+  max-width: 72ch;
+}
+
+::selection {
+  background: oklch(from var(--color-primary) l c h / 0.25);
+  color: var(--color-text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

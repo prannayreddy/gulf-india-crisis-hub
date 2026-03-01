@@ -1,0 +1,140 @@
+{
+  "lastUpdated": "2026-03-02T01:17:00+05:30",
+  "crisisStatus": "ACTIVE",
+  "banner": {
+    "title": "CBSE EXAMS POSTPONED (MARCH 2)",
+    "subtitle": "Official Notice Inside — 7 Gulf Countries Affected",
+    "alertLevel": "HIGH"
+  },
+  "cbse": {
+    "circularUrl": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf",
+    "summary": "CBSE has officially postponed Class 10 and Class 12 board exams scheduled for March 2, 2026 in 7 Middle East countries. New dates to be announced after review on March 3.",
+    "affectedCountries": ["Bahrain", "Iran", "Kuwait", "Oman", "Qatar", "Saudi Arabia", "UAE"],
+    "affectedClasses": ["Class X (10)", "Class XII (12)"],
+    "nextReviewDate": "2026-03-03",
+    "issuedBy": "Controller of Examinations, Dr. Sanyam Bhardwaj",
+    "issuedDate": "2026-03-01"
+  },
+  "embassies": [
+    {
+      "city": "Dubai",
+      "country": "UAE",
+      "mission": "Consulate General of India, Dubai",
+      "emergency": "+971-50-7347676",
+      "tollFree": "800-46342",
+      "whatsapp": "+971-543090571",
+      "email": "pbsk.dubai@mea.gov.in",
+      "website": "https://www.cgidubai.gov.in"
+    },
+    {
+      "city": "Abu Dhabi",
+      "country": "UAE",
+      "mission": "Embassy of India, Abu Dhabi",
+      "emergency": "+971-50-8995583",
+      "tollFree": "800-46342",
+      "whatsapp": "+971-543090571",
+      "email": "ca.abudhabi@mea.gov.in",
+      "website": "https://www.indembassyuae.gov.in"
+    },
+    {
+      "city": "Tehran",
+      "country": "Iran",
+      "mission": "Embassy of India, Tehran",
+      "emergency": "+98-9128109115",
+      "additionalNumbers": ["+98-9128109109", "+98-9128109102", "+98-9932179359"],
+      "whatsapp": "+98-9010445557",
+      "email": "cons.tehran@mea.gov.in",
+      "website": "https://www.indianembassytehran.gov.in"
+    },
+    {
+      "city": "Doha",
+      "country": "Qatar",
+      "mission": "Embassy of India, Doha",
+      "emergency": "+974-55647502",
+      "whatsapp": "+974-55647502",
+      "email": "cons.doha@mea.gov.in",
+      "website": "https://www.indianembassyqatar.gov.in"
+    },
+    {
+      "city": "Muscat",
+      "country": "Oman",
+      "mission": "Embassy of India, Muscat",
+      "tollFree": "8007-1234",
+      "whatsapp": "+968-98282270",
+      "email": "cw.muscat@mea.gov.in",
+      "website": "https://www.indemb-oman.gov.in"
+    }
+  ],
+  "meaCentral": {
+    "description": "MEA 24/7 Control Room, New Delhi",
+    "numbers": ["+91-11-23011954", "+91-11-23012292", "+91-11-23017160"],
+    "tollFree": "1800-118-797",
+    "whatsapp": "+91-99682-91988",
+    "email": "situationroom@mea.gov.in"
+  },
+  "madad": {
+    "url": "https://www.madad.gov.in",
+    "helpline": "1800-11-3090",
+    "description": "MEA's Consular Services Management System — Register for assistance abroad"
+  },
+  "airlines": [
+    {
+      "name": "Air India",
+      "logo": "airindia",
+      "flightStatusUrl": "https://www.airindia.com/in/en/manage/flight-status.html",
+      "refundUrl": "https://www.airindia.com/in/en/manage/request-refund.html",
+      "contactUrl": "https://www.airindia.com/in/en/contact-us.html",
+      "phone": "1800-5691-444",
+      "whatsapp": "+91-96670-34444",
+      "crisisNote": "50+ flights cancelled March 1. Gulf routes suspended. Transatlantic rerouted via Rome."
+    },
+    {
+      "name": "IndiGo",
+      "logo": "indigo",
+      "flightStatusUrl": "https://www.goindigo.in/flight-status.html",
+      "refundUrl": "https://www.goindigo.in/information/cancellation-refund-policy.html",
+      "contactUrl": "https://www.goindigo.in/information/customer-care.html",
+      "phone": "+91-124-4973838",
+      "crisisNote": "Multiple March 2 Gulf flights cancelled due to airspace restrictions."
+    },
+    {
+      "name": "Emirates",
+      "logo": "emirates",
+      "flightStatusUrl": "https://www.emirates.com/english/manage-booking/flight-status/",
+      "refundUrl": "https://www.emirates.com/english/help/forms/refund-request/",
+      "contactUrl": "https://www.emirates.com/english/help/",
+      "phone": "+971-600-555-555",
+      "crisisNote": "ALL operations suspended from DXB until further notice."
+    }
+  ],
+  "airports": [
+    {
+      "code": "DXB",
+      "name": "Dubai International",
+      "flightStatusUrl": "https://www.dubaiairports.ae/flight-status",
+      "status": "ALL OPERATIONS SUSPENDED"
+    },
+    {
+      "code": "DOH",
+      "name": "Hamad International, Doha",
+      "flightStatusUrl": "https://dohahamadairport.com/airlines/flight-status",
+      "status": "SEVERELY DISRUPTED"
+    }
+  ],
+  "additionalAirlines": [
+    { "name": "Etihad", "phone": "+971-600-555-666" },
+    { "name": "SpiceJet", "phone": "+91-124-4983410" },
+    { "name": "Air India Express", "whatsapp": "+91-6360012345" },
+    { "name": "FlyDubai", "phone": "+971-600-544-445" }
+  ],
+  "disclaimer": "This is an AI-aggregated resource hub. Information is for reference only. Verify all details with official government and airline sources before acting. This is NOT an official government entity. Data last verified: March 2, 2026.",
+  "sources": [
+    { "name": "CGI Dubai Official", "url": "https://www.cgidubai.gov.in/page/hotlines-24x7/" },
+    { "name": "Embassy Abu Dhabi Official", "url": "https://www.indembassyuae.gov.in/hotlines.php" },
+    { "name": "Embassy Tehran Official", "url": "https://www.indianembassytehran.gov.in/eoithr_listview/NTM3" },
+    { "name": "Embassy Qatar Official", "url": "https://www.indianembassyqatar.gov.in/contact" },
+    { "name": "Embassy Muscat Official", "url": "https://www.indemb-oman.gov.in/page/24-hour-emergency-helpline/" },
+    { "name": "CBSE Official Circular", "url": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf" },
+    { "name": "MADAD Portal", "url": "https://www.madad.gov.in" }
+  ]
+}

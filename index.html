@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gulf-India Crisis Resource Hub — Emergency Information for Indian Nationals</title>
+  <meta name="description" content="Emergency helplines, flight status, CBSE exam updates, and embassy contacts for Indians affected by the March 2026 Gulf crisis.">
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Analytics: GoatCounter (privacy-friendly, no cookies, ~3.5KB) -->
+  <!-- Dashboard: https://gulf-crisis-hub.goatcounter.com -->
+  <script data-goatcounter="https://gulf-crisis-hub.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- TOP BANNER (emergency alert) — rendered by JS -->
+  <div id="top-banner" aria-live="polite"></div>
+
+  <!-- SITE HEADER -->
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <div class="site-header__top-row">
+        <div id="status-badge" aria-label="Crisis status"></div>
+        <button data-theme-toggle aria-label="Switch to dark mode" class="theme-toggle">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </div>
+      <h1 class="site-header__title">Gulf-India Crisis Resource Hub</h1>
+      <p class="site-header__subtitle">Emergency Information for Indian Nationals</p>
+    </div>
+  </header>
+
+  <!-- LAST UPDATED -->
+  <div id="last-updated" class="last-updated" aria-live="polite"></div>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- ACTION BUTTONS (skeleton while loading) -->
+    <nav id="action-buttons" class="action-buttons" aria-label="Quick actions">
+      <div class="skeleton skeleton-btn" style="width:100%"></div>
+      <div class="skeleton skeleton-btn" style="width:100%"></div>
+      <div class="skeleton skeleton-btn" style="width:100%"></div>
+    </nav>
+
+    <!-- EMBASSY HELPLINES -->
+    <section id="section-embassies" class="section" aria-labelledby="embassies-title">
+      <div class="section__inner">
+        <div class="section__header">
+          <span class="section__overline">24/7 Emergency Support</span>
+          <h2 id="embassies-title" class="section__title">Embassy &amp; Consulate Helplines</h2>
+          <p class="section__desc">Tap any number to call directly. WhatsApp links open in the app.</p>
+        </div>
+        <div id="embassy-cards" class="card-grid">
+          <!-- Skeleton cards -->
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+        </div>
+        <div id="mea-card" style="margin-top: var(--space-4);"></div>
+      </div>
+    </section>
+
+    <!-- CBSE SECTION -->
+    <section id="section-cbse" class="section" aria-labelledby="cbse-title">
+      <div class="section__inner">
+        <div class="section__header">
+          <span class="section__overline">Education Advisory</span>
+          <h2 id="cbse-title" class="section__title">CBSE Exam Postponement</h2>
+        </div>
+        <div id="cbse-content">
+          <div class="skeleton skeleton-text" style="width:90%"></div>
+          <div class="skeleton skeleton-text" style="width:80%"></div>
+          <div class="skeleton skeleton-text" style="width:60%"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AIRLINE SECTION -->
+    <section id="section-airlines" class="section" aria-labelledby="airlines-title">
+      <div class="section__inner">
+        <div class="section__header">
+          <span class="section__overline">Flight Disruptions</span>
+          <h2 id="airlines-title" class="section__title">Airline Rebooking &amp; Refund Links</h2>
+          <p class="section__desc">Check flight status and request refunds directly from airline portals.</p>
+        </div>
+
+        <!-- Airport status -->
+        <div id="airport-status" style="margin-bottom: var(--space-6);"></div>
+
+        <!-- Airline cards -->
+        <div id="airline-cards" class="card-grid">
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+          <div class="skeleton skeleton-card"></div>
+        </div>
+
+        <!-- Additional airlines -->
+        <div id="additional-airlines"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="site-footer" class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <div id="footer-disclaimer"></div>
+
+      <!-- Report an Issue -->
+      <div class="footer-feedback">
+        <a href="https://github.com/prannayreddy/gulf-india-crisis-hub/issues/new?title=Outdated+Info&body=What+is+wrong%3A%0AWhich+section%3A%0A" class="feedback-btn" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          Notice an outdated link? Report it on GitHub
+        </a>
+      </div>
+
+      <div id="footer-sources"></div>
+      <p class="footer-built">Built with urgency for Indians abroad</p>
+    </div>
+  </footer>
+
+  <!-- APP LOGIC -->
+  <script src="./app.js" defer></script>
+</body>
+</html>
