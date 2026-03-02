@@ -638,4 +638,61 @@
     return div.innerHTML;
   }
 
+  // ==========================================
+  // SHARE BUTTON
+  // ==========================================
+  var shareBtn = document.getElementById('share-btn');
+  var shareToast = document.getElementById('share-toast');
+
+  if (shareBtn) {
+    shareBtn.addEventListener('click', function () {
+      var shareData = {
+        title: 'Gulf-India Crisis Resource Hub',
+        text: 'Emergency helplines, flight status, CBSE exam updates for Indians affected by the Gulf crisis.',
+        url: 'https://gulf-india-crisis-hub.vercel.app/'
+      };
+
+      if (navigator.share) {
+        navigator.share(shareData).catch(function () { /* user cancelled */ });
+      } else {
+        // Fallback: copy URL to clipboard
+        var textToCopy = shareData.text + ' ' + shareData.url;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(textToCopy).then(function () {
+            showToast('Link copied to clipboard');
+          }).catch(function () {
+            fallbackCopy(textToCopy);
+          });
+        } else {
+          fallbackCopy(textToCopy);
+        }
+      }
+    });
+  }
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand('copy');
+      showToast('Link copied to clipboard');
+    } catch (e) {
+      showToast('Copy this: ' + 'gulf-india-crisis-hub.vercel.app');
+    }
+    document.body.removeChild(ta);
+  }
+
+  function showToast(msg) {
+    if (!shareToast) return;
+    shareToast.textContent = msg;
+    shareToast.classList.add('share-bar__toast--visible');
+    setTimeout(function () {
+      shareToast.classList.remove('share-bar__toast--visible');
+    }, 2500);
+  }
+
 })();
