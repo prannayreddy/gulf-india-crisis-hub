@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-03-02T04:22:55+05:30",
-  "lastChecked": "2026-03-02T09:00:00+05:30",
+  "lastChecked": "2026-03-02T09:59:00+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
@@ -224,7 +224,7 @@
       "refundUrl": "https://www.qatarairways.com/en/manage-booking.html",
       "contactUrl": "https://www.qatarairways.com/en/help.html",
       "phone": "000-800-040-4657",
-      "crisisNote": "All operations suspended due to Qatari airspace closure. Update expected March 2 by 09:00 Doha time. Penalties waived for affected passengers."
+      "crisisNote": "All operations suspended due to Qatari airspace closure. Update expected March 2 by  09:00 Doha time. Penalties waived for affected passengers."
     },
     {
       "name": "Akasa Air",
@@ -388,7 +388,7 @@
       "title": "Casualties Reported at UAE Airports",
       "summary": "1 death and 11 injuries at DXB/AUH airports from drone and missile debris. UAE intercepted 137 missiles and 209 drones. DXB Terminal 3 roof penetrated by drone with 4 workers injured.",
       "source": "The Sunday Guardian",
-      "sourceUrl": "https://sundayguardianlive.com/world/india-stands-with-uae-pm-modi-speaks-to-president-al-nahyan-amid-israel-iran-missile-strikes-173390/",
+      "sourceUrl": "https://sundayguardianlive.com/world/india-stands-with--uae-pm-modi-speaks-to-president-al-nahyan-amid-israel-iran-missile-strikes-173390/",
       "severity": "high"
     },
     {
