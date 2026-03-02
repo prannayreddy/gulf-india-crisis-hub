@@ -152,16 +152,16 @@
     var el = document.getElementById('monitoring-status');
     if (!el || !data.monitoringInterval) return;
 
-    var lastUpdated = new Date(data.lastUpdated);
+    var lastChecked = new Date(data.lastChecked || data.lastUpdated);
     var intervalMs = data.monitoringInterval * 60 * 1000;
     var now = new Date();
 
-    var nextCheck = new Date(lastUpdated.getTime() + intervalMs);
+    var nextCheck = new Date(lastChecked.getTime() + intervalMs);
     while (nextCheck <= now) {
       nextCheck = new Date(nextCheck.getTime() + intervalMs);
     }
 
-    var diffMin = Math.floor((now - lastUpdated) / 60000);
+    var diffMin = Math.floor((now - lastChecked) / 60000);
     var agoStr;
     if (diffMin < 1) agoStr = 'just now';
     else if (diffMin < 60) agoStr = diffMin + ' min ago';
@@ -176,6 +176,9 @@
 
     el.innerHTML = '<span class="monitoring-status__dot" aria-hidden="true"></span>' +
       'Auto-monitored hourly &middot; Last checked ' + agoStr + ' &middot; Next check ' + nextStr;
+
+    // Refresh every 60 seconds
+    setTimeout(function () { renderMonitoringStatus(data); }, 60000);
   }
 
   // --- Action Buttons ---
