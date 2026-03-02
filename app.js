@@ -680,12 +680,33 @@
     }
   }
 
+  var AIRLINE_LOGO_DOMAINS = {
+    'airindia': 'airindia.com',
+    'indigo': 'goindigo.in',
+    'emirates': 'emirates.com',
+    'etihad': 'etihad.com',
+    'spicejet': 'spicejet.com',
+    'airindiaexpress': 'airindiaexpress.com',
+    'flydubai': 'flydubai.com',
+    'qatarairways': 'qatarairways.com',
+    'akasaair': 'akasaair.com',
+    'gulfair': 'gulfair.com',
+    'omanair': 'omanair.com',
+    'airarabia': 'airarabia.com'
+  };
+
   function renderAirlineRow(al) {
     var excerpt = al.crisisNote || '';
     if (excerpt.length > 80) excerpt = excerpt.substring(0, 77) + '...';
 
+    var logoDomain = AIRLINE_LOGO_DOMAINS[al.logo] || '';
+    var logoUrl = logoDomain ? 'https://www.google.com/s2/favicons?domain=' + logoDomain + '&sz=128' : '';
+
     var html = '<details class="accordion-item">';
     html += '<summary>';
+    if (logoUrl) {
+      html += '<img class="airline-logo" src="' + logoUrl + '" alt="' + escHtml(al.name) + ' logo" width="32" height="32" loading="lazy" onerror="this.style.display=\'none\'">';
+    }
     html += '<span class="airline-summary">';
     html += '<span class="airline-summary__name">' + escHtml(al.name) + '</span>';
     html += '<span class="airline-summary__excerpt">' + escHtml(excerpt) + '</span>';
