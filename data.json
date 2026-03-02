@@ -1,10 +1,11 @@
 {
   "lastUpdated": "2026-03-02T04:22:55+05:30",
+  "lastChecked": "2026-03-02T06:25:00+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
     "title": "CBSE EXAMS POSTPONED (MARCH 2)",
-    "subtitle": "Official Notice Inside \u2014 7 Gulf Countries Affected",
+    "subtitle": "Official Notice Inside — 7 Gulf Countries Affected",
     "alertLevel": "HIGH"
   },
   "cbse": {
@@ -149,7 +150,7 @@
   "madad": {
     "url": "https://www.madad.gov.in",
     "helpline": "1800-11-3090",
-    "description": "MEA's Consular Services Management System \u2014 Register for assistance abroad"
+    "description": "MEA's Consular Services Management System — Register for assistance abroad"
   },
   "airlines": [
     {
@@ -431,7 +432,7 @@
       "title": "Travel Insurance May Not Cover This Crisis",
       "summary": "Standard travel insurance policies exclude acts of war. If you purchased travel insurance before the crisis, check your policy for war/terrorism exclusions. War-risk premium add-ons cost approximately $8 per trip.",
       "source": "VisaHQ",
-      "sourceUrl": "https://www.visahq.com/news/2025-02-28/in/indian-airlines-halt-middle-east-services-after-dgca-emergency-directive/",
+      "sourceUrl": "https://www.visahq.com/news/2026-02-28/in/indian-airlines-halt-middle-east-services-after-dgca-emergency-directive/",
       "severity": "medium"
     },
     {
