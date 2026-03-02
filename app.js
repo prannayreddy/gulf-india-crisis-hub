@@ -689,9 +689,9 @@
   function showToast(msg) {
     if (!shareToast) return;
     shareToast.textContent = msg;
-    shareToast.classList.add('share-bar__toast--visible');
+    shareToast.classList.add('share-fab__toast--visible');
     setTimeout(function () {
-      shareToast.classList.remove('share-bar__toast--visible');
+      shareToast.classList.remove('share-fab__toast--visible');
     }, 2500);
   }
 

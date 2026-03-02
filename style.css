@@ -176,23 +176,15 @@ a.contact-row:active { background: var(--color-surface-dynamic); }
 .error-state__btn:active { background: var(--color-primary-active); }
 
 /* ==========================================
-   STICKY SHARE BAR
+   FLOATING SHARE BUTTON (FAB)
    ========================================== */
-.share-bar {
+.share-fab {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: var(--space-5);
+  right: var(--space-5);
   z-index: 900;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-3) var(--space-4);
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
-  box-shadow: 0 -2px 12px oklch(0 0 0 / 0.08);
 }
-.share-bar__btn {
+.share-fab__btn {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
@@ -204,18 +196,25 @@ a.contact-row:active { background: var(--color-surface-dynamic); }
   border-radius: var(--radius-full);
   border: none;
   cursor: pointer;
-  min-height: 44px;
-  transition: background var(--transition-interactive), transform 0.1s ease;
+  min-height: 48px;
+  box-shadow: 0 4px 14px oklch(0 0 0 / 0.18);
+  transition: background var(--transition-interactive), transform 0.1s ease, box-shadow var(--transition-interactive);
   -webkit-tap-highlight-color: transparent;
 }
-.share-bar__btn:hover { background: var(--color-primary-hover); }
-.share-bar__btn:active { background: var(--color-primary-active); transform: scale(0.97); }
-.share-bar__btn svg { flex-shrink: 0; }
-.share-bar__toast {
+.share-fab__btn:hover {
+  background: var(--color-primary-hover);
+  box-shadow: 0 6px 20px oklch(0 0 0 / 0.22);
+}
+.share-fab__btn:active {
+  background: var(--color-primary-active);
+  transform: scale(0.95);
+}
+.share-fab__btn svg { flex-shrink: 0; }
+.share-fab__label { white-space: nowrap; }
+.share-fab__toast {
   position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: calc(100% + var(--space-2));
+  right: 0;
   padding: var(--space-2) var(--space-4);
   background: var(--color-text);
   color: var(--color-surface);
@@ -226,11 +225,12 @@ a.contact-row:active { background: var(--color-surface-dynamic); }
   pointer-events: none;
   transition: opacity 0.2s ease;
   white-space: nowrap;
+  box-shadow: 0 2px 8px oklch(0 0 0 / 0.12);
 }
-.share-bar__toast--visible { opacity: 1; }
+.share-fab__toast--visible { opacity: 1; }
 
-/* Push footer up so it's not hidden behind the share bar */
-.site-footer { padding-bottom: 72px; }
+/* Footer no longer needs extra bottom padding */
+.site-footer { padding-bottom: var(--space-4); }
 
 /* GitHub footer link */
 .footer-github {
