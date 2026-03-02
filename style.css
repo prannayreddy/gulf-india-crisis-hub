@@ -231,3 +231,14 @@ a.contact-row:active { background: var(--color-surface-dynamic); }
 
 /* Push footer up so it's not hidden behind the share bar */
 .site-footer { padding-bottom: 72px; }
+
+/* GitHub footer link */
+.footer-github {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--space-3);
+  color: var(--color-text-faint);
+  transition: color var(--transition-interactive);
+}
+.footer-github:hover { color: var(--color-text); }
