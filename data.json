@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-02T04:22:55+05:30",
-  "lastChecked": "2026-03-02T11:03:00+05:30",
+  "lastUpdated": "2026-03-02T12:02:00+05:30",
+  "lastChecked": "2026-03-02T12:02:00+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
@@ -224,7 +224,7 @@
       "refundUrl": "https://www.qatarairways.com/en/manage-booking.html",
       "contactUrl": "https://www.qatarairways.com/en/help.html",
       "phone": "000-800-040-4657",
-      "crisisNote": "All operations suspended due to Qatari airspace closure. Update expected March 2 by 09:00 Doha time. Penalties waived for affected passengers."
+      "crisisNote": "All operations suspended due to Qatari airspace closure. Update expected March 2 by 09:00 Doha time. Penalties waived for affected passengers Further update on March 3 by 09:00 Doha time (06:00 UTC)."
     },
     {
       "name": "Akasa Air",
@@ -370,6 +370,17 @@
   ],
   "advisories": [
     {
+      "id": "qatar-airways-update-mar2-next-update-mar3-0900",
+      "date": "2026-03-02",
+      "time": "12:02",
+      "category": "aviation",
+      "title": "Qatar Airways: Next update March 3 (09:00 Doha time)",
+      "summary": "Qatar Airways says operations remain suspended due to Qatari airspace closure; it will issue a further update on March 3 by 09:00 Doha time (06:00 UTC).",
+      "source": "Qatar Airways (trade portal)",
+      "sourceUrl": "https://www.qatarairways.com/tradeportal/en-in/news-updates/2026/Operations-update-Qatari-Airspace-closure.html",
+      "severity": "medium"
+    },
+    {
       "id": "kwi-airport-drone-hit",
       "date": "2026-03-02",
       "time": "04:38",
@@ -419,7 +430,7 @@
       "time": "04:38",
       "category": "education",
       "title": "ICSE/ISC Schools Request Exam Rescheduling",
-      "summary": "UAE schools collectively writing to CISCE (ICSE/ISC board) to request rescheduling of upcoming board exam papers. Class 10 exams run until March 30, Class 12 until April 6. No CISCE decision yet.",
+      "summary": "UAE schools collectively writing to CISCE (ICSE/ISC board) to request rescheduling of upcoming board exam papers. Class 10 exams run until March 30, Class 12 exams until April 6. No CISCE decision yet.",
       "source": "Khaleej Times",
       "sourceUrl": "https://www.khaleejtimes.com/uae/education/cbse-to-update-uae-schools-class-10-12-board-exams-regional-tensions",
       "severity": "medium"
