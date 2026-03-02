@@ -1,1 +1,463 @@
-{"lastUpdated": "2026-03-02T20:57:29+05:30", "lastChecked": "2026-03-02T20:57:29+05:30", "monitoringInterval": 60, "crisisStatus": "ACTIVE", "banner": {"title": "CBSE EXAMS POSTPONED (MARCH 2)", "subtitle": "Official Notice Inside — 7 Gulf Countries Affected", "alertLevel": "HIGH"}, "cbse": {"circularUrl": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf", "summary": "CBSE has officially postponed Class 10 and Class 12 board exams scheduled for March 2, 2026 in 7 Middle East countries. New dates to be announced after review on March 3.", "affectedCountries": ["Bahrain", "Iran", "Kuwait", "Oman", "Qatar", "Saudi Arabia", "UAE"], "affectedClasses": ["Class X (10)", "Class XII (12)"], "nextReviewDate": "2026-03-03", "issuedBy": "Controller of Examinations, Dr. Sanyam Bhardwaj", "issuedDate": "2026-03-01"}, "embassies": [{"city": "Dubai", "country": "UAE", "mission": "Consulate General of India, Dubai", "emergency": "+971-50-7347676", "tollFree": "800-46342", "additionalNumbers": ["+971-504559594", "+971-509433111"], "whatsapp": "+971-543090571", "email": "pbsk.dubai@mea.gov.in", "website": "https://www.cgidubai.gov.in", "note": "PBSK 24x7 Helpline: +971-543090571"}, {"city": "Abu Dhabi", "country": "UAE", "mission": "Embassy of India, Abu Dhabi", "emergency": "+971-50-8995583", "tollFree": "800-46342", "additionalNumbers": ["+971-564038863", "+971-502103813"], "email": "ca.abudhabi@mea.gov.in", "website": "https://www.indembassyuae.gov.in", "note": "Death Emergency: +971-564038863 | Female Workers Distress: +971-502103813"}, {"city": "Tehran", "country": "Iran", "mission": "Embassy of India, Tehran", "emergency": "+98-9128109115", "additionalNumbers": ["+98-9128109109", "+98-9128109102", "+98-9932179359"], "whatsapp": "+98-9010445557", "email": "cons.tehran@mea.gov.in", "website": "https://www.indianembassytehran.gov.in"}, {"city": "Doha", "country": "Qatar", "mission": "Embassy of India, Doha", "emergency": "+974-55647502", "whatsapp": "+974-55647502", "email": "cons.doha@mea.gov.in", "website": "https://www.indianembassyqatar.gov.in"}, {"city": "Muscat", "country": "Oman", "mission": "Embassy of India, Muscat", "tollFree": "8007-1234", "whatsapp": "+968-98282270", "email": "cw.muscat@mea.gov.in", "website": "https://www.indemb-oman.gov.in"}, {"city": "Riyadh", "country": "Saudi Arabia", "mission": "Embassy of India, Riyadh", "emergency": "+966-11-4884697", "tollFree": "800-247-1234", "whatsapp": "+966-542126748", "email": "cw.riyadh@mea.gov.in", "website": "https://www.eoiriyadh.gov.in"}, {"city": "Jeddah", "country": "Saudi Arabia", "mission": "Consulate General of India, Jeddah", "emergency": "+966-126648660", "tollFree": "800-244-0003", "whatsapp": "+966-536209704", "email": "conscw.jeddah@mea.gov.in", "website": "https://www.cgijeddah.gov.in"}, {"city": "Kuwait City", "country": "Kuwait", "mission": "Embassy of India, Kuwait", "emergency": "+965-65501946", "additionalNumbers": ["+965-22530600", "+965-65809348"], "whatsapp": "+965-65501946", "email": "community.kuwait@mea.gov.in", "website": "https://indembkwt.gov.in"}, {"city": "Manama", "country": "Bahrain", "mission": "Embassy of India, Bahrain", "emergency": "+973-39418071", "additionalNumbers": ["+973-38400433", "+973-17560360"], "email": "cons.bahrain@mea.gov.in", "website": "https://www.eoibahrain.gov.in/contact-us.php"}], "meaCentral": {"description": "MEA 24/7 Control Room, New Delhi", "numbers": ["+91-11-23011954", "+91-11-23012292", "+91-11-23017160"], "tollFree": "1800-118-797", "whatsapp": "+91-99682-91988", "email": "situationroom@mea.gov.in"}, "madad": {"url": "https://www.madad.gov.in", "helpline": "1800-11-3090", "description": "MEA's Consular Services Management System — Register for assistance abroad"}, "airlines": [{"name": "Air India", "logo": "airindia", "flightStatusUrl": "https://www.airindia.com/in/en/manage/flight-status.html", "refundUrl": "https://www.airindia.com/in/en/manage/request-refund.html", "contactUrl": "https://www.airindia.com/in/en/contact-us.html", "phone": "1800-5691-444", "whatsapp": "+91-96670-34444", "crisisNote": "Air India has cancelled multiple Gulf and Europe/US flights and rerouted some services due to airspace disruptions."}, {"name": "IndiGo", "logo": "indigo", "flightStatusUrl": "https://www.goindigo.in/flight-status.html", "refundUrl": "https://www.goindigo.in/information/cancellation-refund-policy.html", "contactUrl": "https://www.goindigo.in/information/customer-care.html", "phone": "+91-124-4973838", "crisisNote": "IndiGo has temporarily suspended flights to/from affected Gulf airports through March 2 (2359 IST)."}, {"name": "Emirates", "logo": "emirates", "flightStatusUrl": "https://www.emirates.com/english/manage-booking/flight-status/", "refundUrl": "https://www.emirates.com/english/help/forms/refund-request/", "contactUrl": "https://www.emirates.com/english/help/", "phone": "+971-600-555-555", "crisisNote": "Emirates will operate a limited number of flights commencing the evening of 2 March; all other flights remain suspended until further notice. Do not go to the airport unless notified by Emirates."}, {"name": "Etihad Airways", "logo": "etihad", "flightStatusUrl": "https://www.etihad.com/en/manage/flight-status", "refundUrl": "https://www.etihad.com/en/manage/manage-booking", "contactUrl": "https://www.etihad.com/en/help", "phone": "+971-600-555-666", "crisisNote": "All flights to and from Abu Dhabi are suspended until 14:00 UAE time on March 2; some repatriation/cargo flights may operate with UAE approvals."}, {"name": "SpiceJet", "logo": "spicejet", "flightStatusUrl": "https://www.spicejet.com/FlightStatus.aspx", "refundUrl": "https://www.spicejet.com/ManageBooking", "contactUrl": "https://www.spicejet.com/ContactUs", "phone": "+91-124-4983410", "crisisNote": "All India-UAE flights cancelled. Check website for refund and rebooking."}, {"name": "Air India Express", "logo": "airindiaexpress", "flightStatusUrl": "https://www.airindiaexpress.com/manage-booking", "refundUrl": "https://www.airindiaexpress.com/manage-booking", "contactUrl": "https://www.airindiaexpress.com/contact-us", "whatsapp": "+91-6360012345", "crisisNote": "Air India Express has suspended services to Gulf destinations through March 2 (2359 IST)."}, {"name": "FlyDubai", "logo": "flydubai", "flightStatusUrl": "https://www.flydubai.com/en/flying-with-us/flight-status", "refundUrl": "https://www.flydubai.com/en/manage/manage-booking", "contactUrl": "https://www.flydubai.com/en/contact-us", "phone": "+971-600-544-445", "crisisNote": "All operations to and from Dubai suspended until 15:00 UAE time March 2."}, {"name": "Qatar Airways", "logo": "qatarairways", "flightStatusUrl": "https://fs.qatarairways.com/flightstatus/search", "refundUrl": "https://www.qatarairways.com/en/manage-booking.html", "contactUrl": "https://www.qatarairways.com/en/help.html", "phone": "000-800-040-4657", "crisisNote": "Qatar Airways operations remain temporarily suspended due to closure of Qatari airspace; next update March 3 by 09:00 Doha time."}, {"name": "Akasa Air", "logo": "akasaair", "flightStatusUrl": "https://www.akasaair.com/manage-booking/flight-status", "refundUrl": "https://www.akasaair.com/manage-booking/refund-status", "contactUrl": "https://www.akasaair.com/customer-support", "phone": "+91-9606-112131", "crisisNote": "Akasa Air suspended Abu Dhabi, Doha, Jeddah, Kuwait, Riyadh routes through March 2."}, {"name": "Gulf Air", "logo": "gulfair", "flightStatusUrl": "https://www.gulfair.com/en/flying-with-us/before-you-travel/flight-status", "refundUrl": "https://www.gulfair.com/flying-with-us/before-you-travel/check-in", "contactUrl": "https://www.gulfair.com/contact-us", "phone": "1800-123-7474", "crisisNote": "All operations suspended from BAH. Bahrain intercepted Iranian missiles/drones. Awaiting update on resumption."}, {"name": "Oman Air", "logo": "omanair", "flightStatusUrl": "https://www.omanair.com/en/flight-status", "refundUrl": "https://www.omanair.com/en/manage-bookings", "contactUrl": "https://www.omanair.com/en/contact-us", "phone": "+968-2453-1111", "crisisNote": "Some cancellations and disruptions at MCT. Baghdad flights suspended. Check manage booking for refund/rebooking options."}, {"name": "Air Arabia", "logo": "airarabia", "flightStatusUrl": "https://www.airarabia.com/en/flight-status", "refundUrl": "https://www.airarabia.com/en/manage-booking", "contactUrl": "https://www.airarabia.com/en/Help/Contact-Us/Call-Centre", "phone": "+971-6-558-0000", "crisisNote": "Operations to/from UAE suspended until 15:00 UAE time March 2."}], "airports": [{"code": "DXB", "name": "Dubai International", "flightStatusUrl": "https://www.dubaiairports.ae/flight-status", "status": "LIMITED"}, {"code": "DOH", "name": "Hamad International, Doha", "flightStatusUrl": "https://dohahamadairport.com/airlines/flight-status", "status": "SUSPENDED"}, {"code": "AUH", "name": "Zayed International, Abu Dhabi", "flightStatusUrl": "https://www.zayedinternationalairport.ae/en/flights-and-check-in/flight-status/arrivals", "status": "DISRUPTED"}, {"code": "SHJ", "name": "Sharjah International", "flightStatusUrl": "https://www.sharjahairport.ae/en/traveller/flight-information/", "status": "SUSPENDED"}, {"code": "KWI", "name": "Kuwait International", "flightStatusUrl": "https://www.kuwaitairport.gov.kw/en/", "status": "DISRUPTED"}, {"code": "BAH", "name": "Bahrain International", "flightStatusUrl": "https://www.bahrainairport.bh/flight-arrivals", "status": "DISRUPTED"}, {"code": "DWC", "name": "Al Maktoum International (DWC)", "flightStatusUrl": "https://www.dubaiairports.ae/flight-status", "status": "LIMITED"}], "additionalAirlines": [{"name": "Vistara", "phone": "+91-9289-228-228"}, {"name": "Kuwait Airways", "phone": "+965-2434-5555"}], "disclaimer": "This is an AI-aggregated resource hub. Information is for reference only. Verify all details with official government and airline sources before acting. This is NOT an official government entity. Data last verified: March 2, 2026.", "sources": [{"name": "CGI Dubai Official", "url": "https://www.cgidubai.gov.in/page/hotlines-24x7/"}, {"name": "Embassy Abu Dhabi Official", "url": "https://www.indembassyuae.gov.in/hotlines.php"}, {"name": "Embassy Tehran Official", "url": "https://www.indianembassytehran.gov.in/eoithr_listview/NTM3"}, {"name": "Embassy Qatar Official", "url": "https://www.indianembassyqatar.gov.in/contact"}, {"name": "Embassy Muscat Official", "url": "https://www.indemb-oman.gov.in/page/24-hour-emergency-helpline/"}, {"name": "CBSE Official Circular", "url": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf"}, {"name": "MADAD Portal", "url": "https://www.madad.gov.in"}, {"name": "Embassy Riyadh Official", "url": "https://www.eoiriyadh.gov.in/page/contact-us/"}, {"name": "CGI Jeddah Official", "url": "https://www.cgijeddah.gov.in"}, {"name": "Embassy Kuwait Official", "url": "https://indembkwt.gov.in"}, {"name": "Embassy Bahrain Official", "url": "https://www.eoibahrain.gov.in/contact-us.php"}, {"name": "Indian Express Crisis Contact List", "url": "https://indianexpress.com/article/world/iran-israel-war-indian-embassies-advisories-emergency-contact-numbers-country-wise-details-10558147/"}], "advisories": [{"id": "cbse-postponement-mar2", "title": "CBSE Board Exams (Middle East): March 2 papers postponed", "summary": "CBSE postponed Class 10 and 12 exams scheduled for March 2 in 7 Gulf/Middle East countries; new dates will be announced after review on March 3.", "severity": "high", "category": "education", "issuedDate": "2026-03-01", "date": "2026-03-01", "time": "22:00", "source": "CBSE Circular", "sourceUrl": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf"}, {"id": "qatar-airways-next-update-mar3-0900", "title": "Qatar Airways: Operations suspended; next update by Mar 3 09:00 Doha", "summary": "Qatar Airways says its operations remain suspended due to Qatari airspace closure and it will issue another update by March 3 09:00 Doha time.", "severity": "medium", "category": "aviation", "issuedDate": "2026-03-02", "date": "2026-03-02", "time": "12:00", "source": "Qatar Airways Operations Update", "sourceUrl": "https://www.qatarairways.com/tradeportal/en-in/news-updates/2026/Operations-update-Qatari-Airspace-closure.html"}, {"id": "emirates-limited-flights-mar2", "title": "Emirates: Limited flights from evening March 2; others suspended until further notice", "summary": "Emirates will operate a limited number of flights from the evening of March 2; all other flights remain suspended until further notice and passengers should wait for airline confirmation before going to the airport.", "severity": "medium", "category": "aviation", "issuedDate": "2026-03-02", "date": "2026-03-02", "time": "17:00", "source": "Emirates Travel Updates", "sourceUrl": "https://www.emirates.com/us/english/help/travel-updates/"}, {"id": "dubai-airports-limited-resume-mar2", "title": "DXB/DWC: Limited operations expected to resume March 2 (evening)", "summary": "Dubai Airports says a small number of flights will operate from DXB and DWC later today (March 2); passengers should not go to the airport unless their airline confirms departure time.", "severity": "medium", "category": "aviation", "issuedDate": "2026-03-02", "date": "2026-03-02", "time": "18:00", "source": "Dubai Airports", "sourceUrl": "https://www.dubaiairports.ae"}, {"id": "emirates-extended-mar3-1500", "date": "2026-03-02", "time": "14:00", "category": "aviation", "title": "Emirates: DXB operations suspended until Mar 3 (15:00 UAE time)", "summary": "Emirates says all operations to/from Dubai are suspended up to 15:00 UAE time on Tuesday, March 3; passengers should check flight status before heading to the airport.", "source": "Emirates Travel Updates", "sourceUrl": "https://www.emirates.com/us/english/help/travel-updates/", "severity": "high"}, {"id": "qatar-airways-update-mar2-next-update-mar3-0900", "date": "2026-03-02", "time": "12:02", "category": "aviation", "title": "Qatar Airways: Next update March 3 (09:00 Doha time)", "summary": "Qatar Airways says operations remain suspended due to Qatari airspace closure; it will issue a further update on March 3 by 09:00 Doha time (06:00 UTC).", "source": "Qatar Airways (trade portal)", "sourceUrl": "https://www.qatarairways.com/tradeportal/en-in/news-updates/2026/Operations-update-Qatari-Airspace-closure.html", "severity": "medium"}, {"id": "kwi-airport-drone-hit", "date": "2026-03-02", "time": "04:38", "category": "safety", "title": "Kuwait Airport Hit by Iranian Drone", "summary": "Kuwait International Airport (KWI) took a direct hit from an Iranian drone, causing damage inside the terminal building.", "source": "Aviation Week", "sourceUrl": "https://aviationweek.com/air-transport/safety-ops-regulation/airports-struck-airlines-cancel-flight-iran-war-fallout", "severity": "high"}, {"id": "dxb-auh-casualties", "date": "2026-03-02", "time": "04:13", "category": "safety", "title": "Casualties Reported at UAE Airports", "summary": "1 death and 11 injuries at DXB/AUH airports from drone and missile debris. UAE intercepted 137 missiles and 209 drones. DXB Terminal 3 roof penetrated by drone with 4 workers injured.", "source": "The Sunday Guardian", "sourceUrl": "https://sundayguardianlive.com/world/india-stands-with-uae-pm-modi-speaks-to-president-al-nahyan-amid-israel-iran-missile-strikes-173390/", "severity": "high"}, {"id": "iran-notam-airspace-closed-mar3", "date": "2026-03-02", "time": "04:38", "category": "aviation", "title": "Iran Airspace Closed Through March 3", "summary": "Iran NOTAM extends airspace closure through at least March 3. This goes beyond DGCA's current advisory which was valid until March 2. Airlines planning phased restarts depend on airspace reopening.", "source": "Aviation Week", "sourceUrl": "https://aviationweek.com/air-transport/safety-ops-regulation/airports-struck-airlines-cancel-flight-iran-war-fallout", "severity": "high"}, {"id": "uae-distance-learning-mar2-4", "date": "2026-03-02", "time": "04:38", "category": "education", "title": "UAE Schools Shift to Distance Learning (Mar 2-4)", "summary": "UAE Ministry of Education directed all schools to shift to distance learning from March 2 to 4. School transport, after-school activities, clubs, and external programmes suspended.", "source": "Khaleej Times", "sourceUrl": "https://www.khaleejtimes.com/uae/education/cbse-to-update-uae-schools-class-10-12-board-exams-regional-tensions", "severity": "medium"}, {"id": "icse-isc-exams-gulf-reschedule-request", "date": "2026-03-02", "time": "04:38", "category": "education", "title": "ICSE/ISC Schools Request Exam Rescheduling", "summary": "UAE schools collectively writing to CISCE (ICSE/ISC board) to request rescheduling of upcoming board exam papers. Class 10 exams run until March 30, Class 12 until April 6. No CISCE decision yet.", "source": "Khaleej Times", "sourceUrl": "https://www.khaleejtimes.com/uae/education/cbse-to-update-uae-schools-class-10-12-board-exams-regional-tensions", "severity": "medium"}, {"id": "insurance-war-exclusion", "date": "2026-03-02", "time": "04:13", "category": "financial", "title": "Travel Insurance May Not Cover This Crisis", "summary": "Standard travel insurance policies exclude acts of war. If you purchased travel insurance before the crisis, check your policy for war/terrorism exclusions. War-risk premium add-ons cost approximately $8 per trip.", "source": "VisaHQ", "sourceUrl": "https://www.visahq.com/news/2026-02-28/in/indian-airlines-halt-middle-east-services-after-dgca-emergency-directive/", "severity": "medium"}, {"id": "kerala-norka-helpdesk", "date": "2026-03-02", "time": "04:13", "category": "advisory", "title": "Kerala NORKA Helpdesk for Gulf Expatriates", "summary": "Kerala's NORKA (Non-Resident Keralites Affairs) department has set up a dedicated helpdesk for Gulf expatriates affected by the crisis.", "source": "NORKA Kerala", "sourceUrl": "https://www.norkaroots.org", "severity": "low"}, {"id": "doha-embassy-emergency-only", "date": "2026-03-02", "time": "04:13", "category": "advisory", "title": "Doha Embassy: Emergency Services Only", "summary": "Indian Embassy in Doha has shifted to emergency-only mode. Regular consular services (passport, visa, attestation) are temporarily closed. For emergencies only: +974-55647502.", "source": "Embassy of India, Doha", "sourceUrl": "https://www.indianembassyqatar.gov.in", "severity": "medium"}], "resources": [{"name": "Kerala NORKA Helpdesk", "details": "Helpdesk for Gulf expatriates; contact via NORKA roots (official channels).", "source": "NORKA (via reporting)", "sourceUrl": "https://norkaroots.org"}]}
+{
+  "lastUpdated": "2026-03-02T22:00:00+05:30",
+  "lastChecked": "2026-03-02T22:00:00+05:30",
+  "monitoringInterval": 60,
+  "crisisStatus": "ACTIVE",
+  "banner": {
+    "title": "CBSE EXAMS POSTPONED (MARCH 2)",
+    "subtitle": "Official Notice Inside — 7 Gulf Countries Affected",
+    "alertLevel": "HIGH"
+  },
+  "cbse": {
+    "circularUrl": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf",
+    "summary": "CBSE has officially postponed Class 10 and Class 12 board exams scheduled for March 2, 2026 in 7 Middle East countries. New dates to be announced after review on March 3.",
+    "affectedCountries": [
+      "Bahrain",
+      "Iran",
+      "Kuwait",
+      "Oman",
+      "Qatar",
+      "Saudi Arabia",
+      "UAE"
+    ],
+    "affectedClasses": [
+      "Class X (10)",
+      "Class XII (12)"
+    ],
+    "nextReviewDate": "2026-03-03",
+    "issuedBy": "Controller of Examinations, Dr. Sanyam Bhardwaj",
+    "issuedDate": "2026-03-01"
+  },
+  "embassies": [
+    {
+      "city": "Dubai",
+      "country": "UAE",
+      "mission": "Consulate General of India, Dubai",
+      "emergency": "+971-50-7347676",
+      "tollFree": "800-46342",
+      "additionalNumbers": [
+        "+971-504559594",
+        "+971-509433111"
+      ],
+      "whatsapp": "+971-543090571",
+      "email": "pbsk.dubai@mea.gov.in",
+      "website": "https://www.cgidubai.gov.in",
+      "note": "PBSK 24x7 Helpline: +971-543090571"
+    },
+    {
+      "city": "Abu Dhabi",
+      "country": "UAE",
+      "mission": "Embassy of India, Abu Dhabi",
+      "emergency": "+971-50-8995583",
+      "tollFree": "800-46342",
+      "additionalNumbers": [
+        "+971-564038863",
+        "+971-502103813"
+      ],
+      "email": "ca.abudhabi@mea.gov.in",
+      "website": "https://www.indembassyuae.gov.in",
+      "note": "Death Emergency: +971-564038863 | Female Workers Distress: +971-502103813"
+    },
+    {
+      "city": "Tehran",
+      "country": "Iran",
+      "mission": "Embassy of India, Tehran",
+      "emergency": "+98-9128109115",
+      "additionalNumbers": [
+        "+98-9128109109",
+        "+98-9128109102",
+        "+98-9932179359"
+      ],
+      "whatsapp": "+98-9010445557",
+      "email": "cons.tehran@mea.gov.in",
+      "website": "https://www.indianembassytehran.gov.in"
+    },
+    {
+      "city": "Doha",
+      "country": "Qatar",
+      "mission": "Embassy of India, Doha",
+      "emergency": "+974-55647502",
+      "whatsapp": "+974-30001736",
+      "email": "consular.doha@mea.gov.in",
+      "website": "https://www.indianembassyqatar.gov.in",
+      "note": "Embassy is operating in emergency-only mode; regular consular services temporarily closed."
+    },
+    {
+      "city": "Kuwait City",
+      "country": "Kuwait",
+      "mission": "Embassy of India, Kuwait",
+      "emergency": "+965-99829899",
+      "additionalNumbers": [
+        "+965-22530600",
+        "+965-22530601",
+        "+965-22530602"
+      ],
+      "whatsapp": "+965-90908464",
+      "email": "consular.kuwait@mea.gov.in",
+      "website": "https://www.indembkwt.gov.in"
+    },
+    {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "mission": "Embassy of India, Riyadh",
+      "emergency": "+966-53-5747102",
+      "additionalNumbers": [
+        "+966-11-4884144"
+      ],
+      "whatsapp": "+966-50-9433111",
+      "email": "cons.riyadh@mea.gov.in",
+      "website": "https://www.indianembassy.org.sa"
+    },
+    {
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "mission": "Consulate General of India, Jeddah",
+      "emergency": "+966-50-9433111",
+      "additionalNumbers": [
+        "+966-12-6624630"
+      ],
+      "whatsapp": "+966-55-3698100",
+      "email": "cons.jeddah@mea.gov.in",
+      "website": "https://www.cgidubai.gov.in"
+    },
+    {
+      "city": "Manama",
+      "country": "Bahrain",
+      "mission": "Embassy of India, Bahrain",
+      "emergency": "+973-38467837",
+      "additionalNumbers": [
+        "+973-17215739"
+      ],
+      "whatsapp": "+973-37770167",
+      "email": "cons.manama@mea.gov.in",
+      "website": "https://www.indianembassy-bahrain.com"
+    },
+    {
+      "city": "Muscat",
+      "country": "Oman",
+      "mission": "Embassy of India, Muscat",
+      "emergency": "+968-92350519",
+      "additionalNumbers": [
+        "+968-24684500"
+      ],
+      "whatsapp": "+968-92350519",
+      "email": "consular.muscat@mea.gov.in",
+      "website": "https://www.indianembassymuscat.gov.in"
+    }
+  ],
+  "airlines": [
+    {
+      "name": "Air India",
+      "logo": "airindia.png",
+      "flightStatusUrl": "https://www.airindia.com/in/en/manage/flight-status.html",
+      "refundUrl": "https://www.airindia.com/in/en/manage/refund.html",
+      "contactUrl": "https://www.airindia.com/in/en/help/contact-us.html",
+      "phone": "+91 124 2641407",
+      "whatsapp": "+91 95655 68282",
+      "crisisNote": "Major disruptions expected. Air India has cancelled multiple Gulf and international flights due to airspace closures. Check flight status before travel."
+    },
+    {
+      "name": "Air India Express",
+      "logo": "airindiaexpress.png",
+      "flightStatusUrl": "https://www.airindiaexpress.com/flight-status",
+      "refundUrl": "https://www.airindiaexpress.com/refund",
+      "contactUrl": "https://www.airindiaexpress.com/contact-us",
+      "phone": "+91 44 2430 1930",
+      "whatsapp": "+91 63693 66666",
+      "crisisNote": "Select Gulf flights suspended through Mar 2 (23:59 IST). Check airline advisories and flight status before departure."
+    },
+    {
+      "name": "IndiGo",
+      "logo": "indigo.png",
+      "flightStatusUrl": "https://www.goindigo.in/flight-status.html",
+      "refundUrl": "https://www.goindigo.in/refund-request.html",
+      "contactUrl": "https://www.goindigo.in/get-help.html",
+      "phone": "+91 124 6173838",
+      "whatsapp": "+91 70656 98383",
+      "crisisNote": "Select international flights via Middle East airspace suspended through Mar 2 (23:59 IST). Waivers/flexibility available for travel until Mar 7 for bookings made on/before Feb 28."
+    },
+    {
+      "name": "Akasa Air",
+      "logo": "akasa.png",
+      "flightStatusUrl": "https://www.akasaair.com/flight-status",
+      "refundUrl": "https://www.akasaair.com/refund",
+      "contactUrl": "https://www.akasaair.com/contact-us",
+      "phone": "+91 96060 61111",
+      "whatsapp": "+91 96060 61111",
+      "crisisNote": "Flights to/from Abu Dhabi, Doha, Jeddah, Kuwait, Riyadh suspended for Mar 2. Flexible rebooking/refunds for affected bookings."
+    },
+    {
+      "name": "Emirates",
+      "logo": "emirates.png",
+      "flightStatusUrl": "https://www.emirates.com/english/manage-booking/flight-status/",
+      "refundUrl": "https://www.emirates.com/english/help/refund-request/",
+      "contactUrl": "https://www.emirates.com/english/help/contact-us/",
+      "phone": "+971 600 555555",
+      "whatsapp": "+971 600 555555",
+      "crisisNote": "Limited number of flights from evening 2 Mar; all other flights suspended until further notice. Rebook for travel on/before 20 Mar or request refund."
+    },
+    {
+      "name": "Etihad",
+      "logo": "etihad.png",
+      "flightStatusUrl": "https://www.etihad.com/en/manage/check-flight-status",
+      "refundUrl": "https://www.etihad.com/en/help/refunds",
+      "contactUrl": "https://www.etihad.com/en/help/contact-us",
+      "phone": "+971 600 555666",
+      "whatsapp": "+971 600 555666",
+      "crisisNote": "Flights to/from Abu Dhabi suspended until 14:00 UAE time Mar 2. Free rebooking until Mar 15 for bookings made on/before Feb 28."
+    },
+    {
+      "name": "flydubai",
+      "logo": "flydubai.png",
+      "flightStatusUrl": "https://www.flydubai.com/en/plan/flight-status",
+      "refundUrl": "https://www.flydubai.com/en/help/faq/refunds",
+      "contactUrl": "https://www.flydubai.com/en/help/contact-us",
+      "phone": "+971 600 544445",
+      "whatsapp": "+971 600 544445",
+      "crisisNote": "Operations suspended until Mar 2 15:00 UAE time. Monitor airline updates and check flight status before travel."
+    },
+    {
+      "name": "Air Arabia",
+      "logo": "airarabia.png",
+      "flightStatusUrl": "https://www.airarabia.com/en/flight-status",
+      "refundUrl": "https://www.airarabia.com/en/refund-request",
+      "contactUrl": "https://www.airarabia.com/en/contact-us",
+      "phone": "+971 600 508001",
+      "whatsapp": "+971 600 508001",
+      "crisisNote": "Operations suspended until Mar 2 15:00 UAE time. Check flight status and contact airline for refunds/rebooking."
+    },
+    {
+      "name": "Qatar Airways",
+      "logo": "qatar.png",
+      "flightStatusUrl": "https://www.qatarairways.com/en/travel-alerts.html",
+      "refundUrl": "https://www.qatarairways.com/en/travel-alerts.html",
+      "contactUrl": "https://www.qatarairways.com/en/help.html",
+      "phone": "+974 4144 5555",
+      "whatsapp": "+974 4144 5555",
+      "crisisNote": "Operations remain temporarily suspended due to Qatari airspace closure. Next update expected Mar 3 by 09:00 Doha time (06:00 UTC)."
+    },
+    {
+      "name": "Saudia",
+      "logo": "saudia.png",
+      "flightStatusUrl": "https://www.saudia.com/Pages/travel-updates.aspx",
+      "refundUrl": "https://www.saudia.com/Pages/travel-updates.aspx",
+      "contactUrl": "https://www.saudia.com/help",
+      "phone": "+966 9200 22222",
+      "whatsapp": "+966 9200 22222",
+      "crisisNote": "Some regional disruptions possible due to airspace restrictions. Check flight status before departure."
+    },
+    {
+      "name": "Oman Air",
+      "logo": "omanair.png",
+      "flightStatusUrl": "https://www.omanair.com/om/en/flight-status",
+      "refundUrl": "https://www.omanair.com/om/en/refund-request",
+      "contactUrl": "https://www.omanair.com/om/en/contact-us",
+      "phone": "+968 2453 1111",
+      "whatsapp": "+968 2453 1111",
+      "crisisNote": "Potential delays/cancellations due to airspace restrictions. Monitor airline advisories."
+    },
+    {
+      "name": "Gulf Air",
+      "logo": "gulfair.png",
+      "flightStatusUrl": "https://www.gulfair.com/flight-status",
+      "refundUrl": "https://www.gulfair.com/refund",
+      "contactUrl": "https://www.gulfair.com/contact-us",
+      "phone": "+973 1737 3737",
+      "whatsapp": "+973 1737 3737",
+      "crisisNote": "Flights may face delays due to regional airspace closures. Check updates before travel."
+    }
+  ],
+  "airports": [
+    {
+      "code": "DXB",
+      "name": "Dubai International Airport",
+      "flightStatusUrl": "https://www.dubaiairports.ae",
+      "status": "LIMITED_OPERATIONS"
+    },
+    {
+      "code": "DWC",
+      "name": "Dubai World Central (Al Maktoum)",
+      "flightStatusUrl": "https://www.dubaiairports.ae",
+      "status": "LIMITED_OPERATIONS"
+    },
+    {
+      "code": "DOH",
+      "name": "Hamad International Airport, Doha",
+      "flightStatusUrl": "https://dohahamadairport.com",
+      "status": "ALL_OPERATIONS_SUSPENDED"
+    },
+    {
+      "code": "AUH",
+      "name": "Zayed International Airport, Abu Dhabi",
+      "flightStatusUrl": "https://www.abudhabiairport.ae",
+      "status": "SEVERELY_DISRUPTED"
+    },
+    {
+      "code": "SHJ",
+      "name": "Sharjah International Airport",
+      "flightStatusUrl": "https://www.sharjahairport.ae/en/flight-info/",
+      "status": "ALL_OPERATIONS_SUSPENDED"
+    },
+    {
+      "code": "BAH",
+      "name": "Bahrain International Airport",
+      "flightStatusUrl": "https://www.bahrainairport.bh/flight-info",
+      "status": "SEVERELY_DISRUPTED"
+    },
+    {
+      "code": "KWI",
+      "name": "Kuwait International Airport",
+      "flightStatusUrl": "https://www.kuwaitairport.gov.kw/en/flight-info",
+      "status": "SEVERELY_DISRUPTED"
+    }
+  ],
+  "advisories": [
+    {
+      "title": "Dubai airports limited operations resuming (DXB/DWC) + Emirates limited flights",
+      "category": "aviation",
+      "severity": "high",
+      "issuedDate": "2026-03-02",
+      "date": "2026-03-02",
+      "time": "22:00",
+      "summary": "Dubai Airports says limited operations are expected to resume later on 2 Mar with a small number of flights at DXB/DWC; Emirates says limited flights from evening 2 Mar while other flights remain suspended until further notice (rebook for travel on/before 20 Mar or refund).",
+      "source": "Dubai Airports / Emirates",
+      "sourceUrl": "https://www.dubaiairports.ae"
+    },
+    {
+      "title": "Dubai Airports: DXB & DWC operations suspended until further notice",
+      "category": "aviation",
+      "severity": "high",
+      "issuedDate": "2026-03-02",
+      "date": "2026-03-02",
+      "time": "15:04",
+      "summary": "Dubai Airports announced that all flight operations at DXB and DWC are suspended until further notice due to regional airspace closures. Passengers should contact airlines for updates and avoid travelling to the airport without confirmation.",
+      "source": "Dubai Airports",
+      "sourceUrl": "https://www.dubaiairports.ae"
+    },
+    {
+      "title": "Qatar Airways: operations suspended; next update Mar 3 by 09:00 Doha",
+      "category": "aviation",
+      "severity": "high",
+      "issuedDate": "2026-03-02",
+      "date": "2026-03-02",
+      "time": "12:02",
+      "summary": "Qatar Airways says flight operations remain temporarily suspended due to Qatari airspace closure. The airline expects to issue the next update by March 3 at 09:00 Doha time (06:00 UTC).",
+      "source": "Qatar Airways",
+      "sourceUrl": "https://www.qatarairways.com/tradeportal/en-in/news-updates/2026/Operations-update-Qatari-Airspace-closure.html"
+    },
+    {
+      "title": "Etihad: flights to/from Abu Dhabi suspended until 14:00 UAE time (Mar 2)",
+      "category": "aviation",
+      "severity": "high",
+      "issuedDate": "2026-03-02",
+      "date": "2026-03-02",
+      "time": "04:38",
+      "summary": "Etihad says all flights scheduled to depart and arrive at Abu Dhabi are suspended until 14:00 (2 PM) UAE time on March 2, subject to operational conditions. Guests can rebook free until March 15 for bookings made on or before Feb 28.",
+      "source": "Etihad",
+      "sourceUrl": "https://www.etihad.com/en/travel-updates"
+    },
+    {
+      "title": "CBSE postpones March 2 board exams in 7 Gulf countries",
+      "category": "education",
+      "severity": "high",
+      "issuedDate": "2026-03-01",
+      "date": "2026-03-01",
+      "time": "00:00",
+      "summary": "CBSE has officially postponed Class 10 and Class 12 board exams scheduled for March 2, 2026 in Bahrain, Iran, Kuwait, Oman, Qatar, Saudi Arabia and UAE. New dates will be decided after a review on March 3.",
+      "source": "CBSE",
+      "sourceUrl": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf"
+    },
+    {
+      "title": "Doha embassy: emergency-only operations; regular consular services closed",
+      "category": "advisory",
+      "severity": "medium",
+      "issuedDate": "2026-03-01",
+      "date": "2026-03-01",
+      "time": "00:00",
+      "summary": "Embassy of India in Doha says it is operating in emergency-only mode and regular consular services are temporarily closed. Use emergency helplines/WhatsApp for urgent assistance.",
+      "source": "Embassy of India, Doha",
+      "sourceUrl": "https://www.indianembassyqatar.gov.in"
+    },
+    {
+      "title": "DGCA advisory: avoid 11 FIRs until March 2",
+      "category": "aviation",
+      "severity": "high",
+      "issuedDate": "2026-03-01",
+      "date": "2026-03-01",
+      "time": "00:00",
+      "summary": "DGCA has advised Indian operators to avoid flight operations in 11 Flight Information Regions (FIRs) due to the security situation, valid until March 2.",
+      "source": "DGCA",
+      "sourceUrl": "https://www.dgca.gov.in"
+    },
+    {
+      "title": "MEA advisory: foreign nationals in India to contact FRRO for visa extensions",
+      "category": "advisory",
+      "severity": "low",
+      "issuedDate": "2026-03-01",
+      "date": "2026-03-01",
+      "time": "00:00",
+      "summary": "MEA advises foreign nationals in India affected by flight disruptions to contact the nearest FRRO for visa-related services including extensions.",
+      "source": "MEA",
+      "sourceUrl": "https://www.mea.gov.in"
+    }
+  ],
+  "resources": [
+    {
+      "title": "MADAD Portal (MEA)",
+      "description": "Register grievances and seek assistance from Indian missions abroad.",
+      "url": "https://madad.gov.in",
+      "category": "advisory"
+    },
+    {
+      "title": "Kerala NORKA Global Contact Center",
+      "description": "Kerala state helpdesk for expatriates and families.",
+      "url": "https://norkaroots.org",
+      "category": "advisory"
+    }
+  ],
+  "additionalAirlines": [],
+  "madad": {
+    "url": "https://madad.gov.in",
+    "description": "The MADAD portal helps Indian nationals abroad register grievances and seek support from Indian embassies/consulates."
+  },
+  "meaCentral": {
+    "description": "MEA 24x7 Control Room for assistance and information.",
+    "numbers": [
+      "+91 11 23012113",
+      "+91 11 23014104",
+      "+91 11 23017905"
+    ],
+    "tollFree": "1800 11 3090",
+    "whatsapp": "+91 99711 92309",
+    "email": "situationroom@mea.gov.in"
+  },
+  "sources": [
+    {
+      "name": "Ministry of External Affairs (India)",
+      "url": "https://www.mea.gov.in"
+    },
+    {
+      "name": "MADAD",
+      "url": "https://madad.gov.in"
+    },
+    {
+      "name": "CBSE",
+      "url": "https://www.cbse.gov.in"
+    },
+    {
+      "name": "Dubai Airports",
+      "url": "https://www.dubaiairports.ae"
+    },
+    {
+      "name": "Emirates",
+      "url": "https://www.emirates.com/us/english/help/travel-updates/"
+    },
+    {
+      "name": "Qatar Airways",
+      "url": "https://www.qatarairways.com/tradeportal/en-in/news-updates/2026/Operations-update-Qatari-Airspace-closure.html"
+    }
+  ],
+  "disclaimer": "This hub is for informational purposes only and may change rapidly. Always verify with official sources (airlines, airports, embassies, and government advisories) before travel.",
+  "madadDescription": "The MADAD portal helps Indian nationals abroad register grievances and seek support from Indian embassies/consulates.",
+  "disclaimerNote": "Personal emails are not displayed; use official helplines and listed embassy contacts."
+}
