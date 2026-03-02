@@ -129,13 +129,136 @@
     renderFooter(data);
   }
 
-  // --- Banner ---
+  // --- Banner (rotating top 3 advisories) ---
   function renderBanner(data) {
     var el = document.getElementById('top-banner');
-    el.innerHTML = '<a href="' + data.cbse.circularUrl + '" target="_blank" rel="noopener noreferrer" class="top-banner" aria-label="' + escHtml(data.banner.title) + ' — tap to view official CBSE notice">' +
-      '<div class="top-banner__title">' + escHtml(data.banner.title) + '</div>' +
-      '<div class="top-banner__sub">' + escHtml(data.banner.subtitle) + '</div>' +
-      '</a>';
+    if (!data.advisories || data.advisories.length === 0) {
+      // Fallback to static banner if no advisories
+      el.innerHTML = '<a href="' + data.cbse.circularUrl + '" target="_blank" rel="noopener noreferrer" class="top-banner">' +
+        '<div class="top-banner__title">' + escHtml(data.banner.title) + '</div>' +
+        '<div class="top-banner__sub">' + escHtml(data.banner.subtitle) + '</div>' +
+        '</a>';
+      return;
+    }
+
+    // Get top 3 by severity then recency
+    var severityOrder = { high: 0, medium: 1, low: 2 };
+    var sorted = data.advisories.slice().sort(function (a, b) {
+      var sa = severityOrder[a.severity] !== undefined ? severityOrder[a.severity] : 3;
+      var sb = severityOrder[b.severity] !== undefined ? severityOrder[b.severity] : 3;
+      if (sa !== sb) return sa - sb;
+      var da = a.date + 'T' + a.time;
+      var db = b.date + 'T' + b.time;
+      if (da > db) return -1;
+      if (da < db) return 1;
+      return 0;
+    });
+    var top3 = sorted.slice(0, 3);
+
+    var html = '<div class="top-banner-carousel" role="region" aria-label="Breaking news ticker" aria-roledescription="carousel">';
+    html += '<div class="top-banner-carousel__track">';
+    top3.forEach(function (item, i) {
+      var url = item.sourceUrl || '#';
+      html += '<a href="' + url + '" target="_blank" rel="noopener noreferrer" class="top-banner-carousel__slide' + (i === 0 ? ' top-banner-carousel__slide--active' : '') + '" data-slide="' + i + '" aria-label="' + escHtml(item.title) + '">';
+      html += '<div class="top-banner__title">' + escHtml(item.title) + '</div>';
+      html += '<div class="top-banner__sub">' + escHtml(item.summary.length > 90 ? item.summary.substring(0, 87) + '...' : item.summary) + '</div>';
+      html += '</a>';
+    });
+    html += '</div>';
+
+    // Dot indicators
+    if (top3.length > 1) {
+      html += '<div class="top-banner-carousel__dots" role="tablist" aria-label="News slides">';
+      top3.forEach(function (item, i) {
+        html += '<button class="top-banner-carousel__dot' + (i === 0 ? ' top-banner-carousel__dot--active' : '') + '" data-dot="' + i + '" role="tab" aria-selected="' + (i === 0 ? 'true' : 'false') + '" aria-label="Slide ' + (i + 1) + '"></button>';
+      });
+      html += '</div>';
+    }
+    html += '</div>';
+
+    el.innerHTML = html;
+
+    // Carousel logic
+    if (top3.length > 1) {
+      initBannerCarousel(el, top3.length);
+    }
+  }
+
+  function initBannerCarousel(container, count) {
+    var current = 0;
+    var autoInterval = null;
+    var isPaused = false;
+    var touchStartX = 0;
+    var touchEndX = 0;
+    var SWIPE_THRESHOLD = 40;
+
+    function goTo(index) {
+      current = ((index % count) + count) % count;
+      var slides = container.querySelectorAll('[data-slide]');
+      var dots = container.querySelectorAll('[data-dot]');
+      for (var i = 0; i < slides.length; i++) {
+        if (i === current) {
+          slides[i].classList.add('top-banner-carousel__slide--active');
+        } else {
+          slides[i].classList.remove('top-banner-carousel__slide--active');
+        }
+      }
+      for (var j = 0; j < dots.length; j++) {
+        if (j === current) {
+          dots[j].classList.add('top-banner-carousel__dot--active');
+          dots[j].setAttribute('aria-selected', 'true');
+        } else {
+          dots[j].classList.remove('top-banner-carousel__dot--active');
+          dots[j].setAttribute('aria-selected', 'false');
+        }
+      }
+    }
+
+    function startAuto() {
+      stopAuto();
+      autoInterval = setInterval(function () {
+        if (!isPaused) goTo(current + 1);
+      }, 5000);
+    }
+
+    function stopAuto() {
+      if (autoInterval) { clearInterval(autoInterval); autoInterval = null; }
+    }
+
+    // Dot click
+    var dots = container.querySelectorAll('[data-dot]');
+    for (var d = 0; d < dots.length; d++) {
+      dots[d].addEventListener('click', function (e) {
+        e.preventDefault();
+        goTo(parseInt(this.getAttribute('data-dot'), 10));
+        startAuto();
+      });
+    }
+
+    // Pause on hover
+    container.addEventListener('mouseenter', function () { isPaused = true; });
+    container.addEventListener('mouseleave', function () { isPaused = false; });
+
+    // Touch swipe
+    var track = container.querySelector('.top-banner-carousel__track');
+    if (track) {
+      track.addEventListener('touchstart', function (e) {
+        touchStartX = e.changedTouches[0].screenX;
+        isPaused = true;
+      }, { passive: true });
+      track.addEventListener('touchend', function (e) {
+        touchEndX = e.changedTouches[0].screenX;
+        var diff = touchStartX - touchEndX;
+        if (Math.abs(diff) > SWIPE_THRESHOLD) {
+          if (diff > 0) { goTo(current + 1); }
+          else { goTo(current - 1); }
+        }
+        isPaused = false;
+        startAuto();
+      }, { passive: true });
+    }
+
+    startAuto();
   }
 
   // --- Status badge ---

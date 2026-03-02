@@ -24,6 +24,48 @@
 }
 .skip-link:focus { top: var(--space-4); }
 
+.top-banner-carousel {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: var(--color-banner-bg); color: var(--color-banner-text);
+  text-align: center;
+}
+.top-banner-carousel__track {
+  position: relative;
+  overflow: hidden;
+  touch-action: pan-y;
+}
+.top-banner-carousel__slide {
+  display: none;
+  padding: var(--space-3) var(--space-4) var(--space-2);
+  text-decoration: none;
+  color: var(--color-banner-text);
+  transition: background var(--transition-interactive);
+}
+.top-banner-carousel__slide--active { display: block; }
+.top-banner-carousel__slide:hover,
+.top-banner-carousel__slide:active { background: var(--color-primary-hover); }
+.top-banner__title {
+  font-family: var(--font-display); font-weight: 700; font-size: var(--text-sm);
+  letter-spacing: 0.03em; text-transform: uppercase;
+}
+.top-banner__sub {
+  font-size: var(--text-xs); opacity: 0.85; margin-top: var(--space-1);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.top-banner-carousel__dots {
+  display: flex; align-items: center; justify-content: center; gap: var(--space-2);
+  padding-bottom: var(--space-2);
+}
+.top-banner-carousel__dot {
+  width: 6px; height: 6px; border-radius: 50%; border: none; padding: 0;
+  background: oklch(1 0 0 / 0.35); cursor: pointer;
+  transition: all var(--transition-interactive);
+  min-height: auto;
+}
+.top-banner-carousel__dot--active {
+  background: oklch(1 0 0 / 0.9); width: 18px; border-radius: 3px;
+}
+/* Fallback for static banner (no advisories) */
 .top-banner {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
   background: var(--color-banner-bg); color: var(--color-banner-text);
@@ -32,11 +74,6 @@
   transition: background var(--transition-interactive);
 }
 .top-banner:hover, .top-banner:active { background: var(--color-primary-hover); }
-.top-banner__title {
-  font-family: var(--font-display); font-weight: 700; font-size: var(--text-sm);
-  letter-spacing: 0.03em; text-transform: uppercase;
-}
-.top-banner__sub { font-size: var(--text-xs); opacity: 0.85; margin-top: var(--space-1); }
 
 .site-header {
   padding-top: calc(5.5rem + var(--space-6)); padding-bottom: var(--space-6);
