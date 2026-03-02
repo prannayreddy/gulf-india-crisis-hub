@@ -2,8 +2,8 @@
   "lastRunIst": "2026-03-03T03:02:00+05:30",
   "lastSuccessfulDeploy": {
     "timestampIst": "2026-03-03T03:02:00+05:30",
-    "commitSha": "23c409fc08a0503434d519d824be59412a01172e",
-    "commitUrl": "https://api.github.com/repos/prannayreddy/gulf-india-crisis-hub/git/commits/23c409fc08a0503434d519d824be59412a01172e"
+    "commitSha": "424dfed98b532cf679fe3bbbcc68775b9b79c9b5",
+    "commitUrl": "https://api.github.com/repos/prannayreddy/gulf-india-crisis-hub/git/commits/424dfed98b532cf679fe3bbbcc68775b9b79c9b5"
   },
-  "notes": "No new crisis updates found; pushed lastChecked-only update. Pending Vercel health-check."
+  "notes": "No new crisis updates found; pushed lastChecked-only update. Vercel health-check OK (data.json valid; homepage renders)."
 }
