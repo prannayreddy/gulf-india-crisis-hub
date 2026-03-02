@@ -1,0 +1,9 @@
+{
+  "lastRunIst": "2026-03-03T03:02:00+05:30",
+  "lastSuccessfulDeploy": {
+    "timestampIst": "2026-03-03T03:02:00+05:30",
+    "commitSha": null,
+    "commitUrl": null
+  },
+  "notes": "No new crisis updates found; will push lastChecked-only update and re-verify Vercel health."
+}

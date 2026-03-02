@@ -1,0 +1,54 @@
+{
+  "runTimestampIst": "2026-03-03T03:02:00+05:30",
+  "newFindings": [],
+  "notes": [
+    {
+      "type": "first_party_check",
+      "item": "Emirates travel updates",
+      "result": "No change vs current data.json (limited flights from evening 2 Mar; other flights suspended until further notice; rebook by 20 Mar/refund).",
+      "url": "https://www.emirates.com/us/english/help/travel-updates/"
+    },
+    {
+      "type": "first_party_check",
+      "item": "Qatar Airways operations update",
+      "result": "No change vs current data.json (operations suspended; next update Mar 3 09:00 Doha).",
+      "url": "https://www.qatarairways.com/tradeportal/en-in/news-updates/2026/Operations-update-Qatari-Airspace-closure.html"
+    },
+    {
+      "type": "first_party_check",
+      "item": "Dubai Airports",
+      "result": "No change vs current data.json (limited operations resumed with small number of flights; do not go to airport without confirmed departure time).",
+      "url": "https://www.dubaiairports.ae"
+    },
+    {
+      "type": "first_party_check",
+      "item": "MEA press releases",
+      "result": "No new Gulf/West Asia advisory visible on press releases page during this run (tool returned only a Jan 13 BRICS release).",
+      "url": "https://www.mea.gov.in/press-releases.htm"
+    },
+    {
+      "type": "first_party_check",
+      "item": "CBSE",
+      "result": "CBSE homepage did not show rescheduling notice during this run; rely on the existing PDF circular already linked in data.json.",
+      "url": "https://www.cbse.gov.in"
+    },
+    {
+      "type": "error",
+      "item": "Air India travel alerts",
+      "result": "Fetch returned http_code_client_error (page not found/unavailable via tool).",
+      "url": "https://www.airindia.com/in/en/travel-alerts.html"
+    },
+    {
+      "type": "error",
+      "item": "IndiGo travel advisory",
+      "result": "Fetch blocked by robots via tool.",
+      "url": "https://www.goindigo.in/information/travel-advisory.html"
+    },
+    {
+      "type": "first_party_check",
+      "item": "Air India Express travel advisory",
+      "result": "No Gulf suspension update text found in page content via tool.",
+      "url": "https://www.airindiaexpress.com/travel-advisory"
+    }
+  ]
+}
