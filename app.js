@@ -692,17 +692,21 @@
     'airindiaexpress': 'airindiaexpress.com',
     'flydubai': 'flydubai.com',
     'qatarairways': 'qatarairways.com',
+    'qatar': 'qatarairways.com',
     'akasaair': 'akasaair.com',
+    'akasa': 'akasaair.com',
     'gulfair': 'gulfair.com',
     'omanair': 'omanair.com',
-    'airarabia': 'airarabia.com'
+    'airarabia': 'airarabia.com',
+    'saudia': 'saudia.com'
   };
 
   function renderAirlineRow(al) {
     var excerpt = al.crisisNote || '';
     if (excerpt.length > 80) excerpt = excerpt.substring(0, 77) + '...';
 
-    var logoDomain = AIRLINE_LOGO_DOMAINS[al.logo] || '';
+    var logoKey = (al.logo || '').replace(/\.png$/i, '').toLowerCase();
+    var logoDomain = AIRLINE_LOGO_DOMAINS[logoKey] || '';
     var logoUrl = logoDomain ? 'https://www.google.com/s2/favicons?domain=' + logoDomain + '&sz=128' : '';
 
     var html = '<details class="accordion-item">';
