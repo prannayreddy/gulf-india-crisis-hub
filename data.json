@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-03-03T13:59:00+05:30",
-  "lastChecked": "2026-03-03T13:59:00+05:30",
+  "lastUpdated": "2026-03-03T15:00:00+05:30",
+  "lastChecked": "2026-03-03T15:00:00+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
     "title": "CBSE EXAMS POSTPONED (MAR 5–6)",
-    "subtitle": "Circular-2 dated Mar 3 — 7 Gulf countries affected",
+    "subtitle": "Circular-2 dated Mar 3 (CBSE) — 7 Gulf countries affected",
     "alertLevel": "HIGH"
   },
   "cbse": {
-    "circularUrl": "https://www.cbse.gov.in/cbsenew/documents/BoardExamMiddleEast_01032026.pdf",
+    "circularUrl": "https://www.cbse.gov.in/cbsenew/documents/Circular_2_Pricnipals_Middle_East_Regions_03032026.pdf",
     "summary": "CBSE has postponed Class 10 and Class 12 board exams scheduled for Mar 2 and (per Circular-2 dated Mar 3) also for Mar 5–6, 2026 in 7 Middle East countries. Fresh dates will be announced later; next review is Mar 5 for exams from Mar 7 onwards.",
     "affectedCountries": [
       "Bahrain",
@@ -320,8 +320,8 @@
       "date": "2026-03-03",
       "time": "13:01",
       "summary": "Media report cites CBSE Circular-2 (dated 3 Mar) postponing Class 10/12 exams scheduled for 5–6 Mar at CBSE centres in Bahrain, Iran, Kuwait, Oman, Qatar, Saudi Arabia and UAE. CBSE says it will review the situation again on 5 Mar for exams scheduled from 7 Mar onwards; revised dates to be announced later.",
-      "source": "NDTV (reports CBSE Circular-2)",
-      "sourceUrl": "https://www.ndtv.com/education/us-israel-iran-war-cbse-again-postpones-class-10-12-board-exams-in-middle-east-regions-11162149"
+      "source": "CBSE Circular-2",
+      "sourceUrl": "https://www.cbse.gov.in/cbsenew/documents/Circular_2_Pricnipals_Middle_East_Regions_03032026.pdf"
     },
     {
       "title": "Dubai airports limited operations resuming (DXB/DWC) + Emirates limited flights",
