@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-03T13:01:00+05:30",
-  "lastChecked": "2026-03-03T13:01:00+05:30",
+  "lastUpdated": "2026-03-03T13:59:00+05:30",
+  "lastChecked": "2026-03-03T13:59:00+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
@@ -154,7 +154,7 @@
       "contactUrl": "https://www.airindia.com/in/en/help/contact-us.html",
       "phone": "+91 124 2641407",
       "whatsapp": "+91 95655 68282",
-      "crisisNote": "Major disruptions expected. Air India has cancelled multiple Gulf and international flights due to airspace closures. Check flight status before travel."
+      "crisisNote": "Air India has extended the temporary suspension of all flights to and from the region until 23:59 IST on 3 Mar 2026 due to multiple Middle East airspace closures. Check flight status before travel."
     },
     {
       "name": "Air India Express",
