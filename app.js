@@ -301,7 +301,7 @@
     else nextStr = 'in ' + Math.floor(untilMin / 60) + 'h ' + (untilMin % 60) + 'm';
 
     el.innerHTML = '<span class="monitoring-status__dot" aria-hidden="true"></span>' +
-      'Auto-monitored hourly &middot; Last checked ' + agoStr + ' &middot; Next check ' + nextStr;
+      'Auto-monitored every 3 hours &middot; Last checked ' + agoStr + ' &middot; Next check ' + nextStr;
 
     // Refresh every 60 seconds
     setTimeout(function () { renderMonitoringStatus(data); }, 60000);
