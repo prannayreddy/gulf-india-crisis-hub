@@ -1,0 +1,274 @@
+{
+  "lastRunTimestamp": "2026-03-03T15:00:00+05:30",
+  "reportedFindings": [
+    {
+      "id": "doh-status-suspended",
+      "category": "airport_status",
+      "summary": "DOH (Doha) status should be ALL OPERATIONS SUSPENDED, not SEVERELY DISRUPTED",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "emirates-suspended-mar2-1500",
+      "category": "airline_update",
+      "summary": "Emirates suspended all operations until March 2 15:00 UAE time",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": true,
+      "resolvedTimestamp": "2026-03-02T14:00:00+05:30",
+      "resolutionNote": "Emirates Travel Updates now states suspension extended to Mar 3 15:00 UAE time."
+    },
+    {
+      "id": "emirates-extended-mar3-1500",
+      "category": "airline_update",
+      "summary": "Emirates extended suspension until March 3 15:00 UAE time",
+      "firstReported": "2026-03-02T14:00:00+05:30",
+      "resolved": false,
+      "tier": 1
+    },
+    {
+      "id": "etihad-suspended-mar2-0200",
+      "category": "airline_update",
+      "summary": "Etihad suspended until March 2 02:00 UAE time",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "flydubai-suspended-mar2-1500",
+      "category": "airline_update",
+      "summary": "FlyDubai suspended until March 2 15:00 UAE time",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "airarabia-suspended-mar2-1500",
+      "category": "airline_update",
+      "summary": "Air Arabia suspended until March 2 15:00 UAE time",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "indigo-suspended-mar2-2359",
+      "category": "airline_update",
+      "summary": "IndiGo suspended until March 2 2359 IST",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "aiexpress-suspended-mar2-2359",
+      "category": "airline_update",
+      "summary": "Air India Express suspended to Gulf until March 2 2359 IST",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "airindia-europe-cancellations",
+      "category": "airline_update",
+      "summary": "Air India also cancelled Europe/US flights (London, Birmingham, Amsterdam, Zurich, Milan, Vienna, Copenhagen, Frankfurt)",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "dxb-auh-casualties",
+      "category": "safety",
+      "summary": "1 death, 11 injuries at DXB/AUH airports; UAE intercepted 137 missiles + 209 drones",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "kerala-norka-helpdesk",
+      "category": "new_resource",
+      "summary": "Kerala NORKA helpdesk set up for Gulf expatriates",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "doha-embassy-emergency-only",
+      "category": "embassy_update",
+      "summary": "Doha Embassy in emergency-only mode, regular consular services closed",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "mea-frro-advisory",
+      "category": "advisory",
+      "summary": "MEA advisory: foreign nationals in India contact FRRO for visa extensions",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "hormuz-reportedly-closed",
+      "category": "maritime",
+      "summary": "Strait of Hormuz reportedly closed by Iran",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "evacuation-contingency-planning",
+      "category": "evacuation",
+      "summary": "India assessing evacuation readiness but none initiated; ~10M Indians in Gulf",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "1500-flights-cancelled-mar1",
+      "category": "flight_stats",
+      "summary": "Over 1,500 flights cancelled March 1 across GCC (~40% of scheduled)",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "insurance-war-exclusion",
+      "category": "financial",
+      "summary": "Standard travel insurance excludes acts of war; war-risk premiums ~$8/trip",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "cbse-march2-postponed",
+      "category": "education",
+      "summary": "CBSE Class 10/12 exams postponed for March 2 in 7 Gulf countries; review on March 3",
+      "firstReported": "2026-03-01T00:00:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "dgca-11fir-advisory-mar2",
+      "category": "aviation_directive",
+      "summary": "DGCA advisory to avoid 11 FIRs valid until March 2",
+      "firstReported": "2026-03-01T00:00:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "akasa-suspended-mar2",
+      "category": "airline_update",
+      "summary": "Akasa Air suspended Abu Dhabi, Doha, Jeddah, Kuwait, Riyadh until March 2",
+      "firstReported": "2026-03-01T00:00:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "qatar-airways-suspended-airspace",
+      "category": "airline_update",
+      "summary": "Qatar Airways operations suspended due to Qatari airspace closure",
+      "firstReported": "2026-03-02T04:13:00+05:30",
+      "resolved": false
+    },
+    {
+      "id": "etihad-extended-14pm-mar2",
+      "category": "airline_update",
+      "summary": "Etihad suspension extended from 02:00 to 14:00 (2 PM) UAE time March 2. Rebooking free until March 15 for bookings before Feb 28.",
+      "firstReported": "2026-03-02T04:38:37+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "e28809158bc4ec630d96eab91abc49deada8992e"
+    },
+    {
+      "id": "icse-isc-exams-gulf-reschedule-request",
+      "category": "education",
+      "summary": "UAE schools collectively writing to CISCE (ICSE/ISC board) to request rescheduling of upcoming papers",
+      "firstReported": "2026-03-02T04:38:37+05:30",
+      "resolved": false,
+      "tier": 2
+    },
+    {
+      "id": "uae-distance-learning-mar2-4",
+      "category": "education",
+      "summary": "UAE Ministry of Education directed all schools to shift to distance learning March 2-4. School transport and activities suspended.",
+      "firstReported": "2026-03-02T04:38:37+05:30",
+      "resolved": false,
+      "tier": 2
+    },
+    {
+      "id": "iran-notam-airspace-closed-mar3",
+      "category": "aviation_directive",
+      "summary": "Iran NOTAM: airspace closed through at least March 3. Extends beyond DGCA advisory (valid until March 2).",
+      "firstReported": "2026-03-02T04:38:37+05:30",
+      "resolved": false,
+      "tier": 2
+    },
+    {
+      "id": "kwi-airport-drone-hit",
+      "category": "safety",
+      "summary": "Kuwait International Airport (KWI) took a direct hit from an Iranian drone, causing damage inside the terminal building.",
+      "firstReported": "2026-03-02T04:38:37+05:30",
+      "resolved": false,
+      "tier": 2
+    },
+    {
+      "id": "qatar-airways-update-mar2-next-update-mar3-0900",
+      "category": "airline_update",
+      "summary": "Qatar Airways updated operations notice (dated Mar 2) and says next update will be issued March 3 by 09:00 Doha time (06:00 UTC).",
+      "firstReported": "2026-03-02T12:02:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true
+    },
+    {
+      "id": "dxb-dwc-suspended-until-further-notice",
+      "category": "airport_status",
+      "summary": "Dubai Airports: DXB and DWC operations suspended until further notice",
+      "firstReported": "2026-03-02T15:04:00+05:30",
+      "resolved": false,
+      "tier": 1
+    },
+    {
+      "id": "emirates-limited-resume-suspended-until-further-notice",
+      "category": "airline_update",
+      "summary": "Emirates to operate limited number of flights from evening Mar 2; all other flights suspended until further notice; rebook for travel on/before Mar 20 or refund.",
+      "firstReported": "2026-03-02T22:00:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "9d746694b951868b6a0070ebbac90531f989bbce"
+    },
+    {
+      "id": "dxb-dwc-limited-operations-resume-mar2",
+      "category": "airport_status",
+      "summary": "Dubai Airports says limited operations expected to resume later Mar 2 with small number of flights from DXB and DWC.",
+      "firstReported": "2026-03-02T22:00:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "9d746694b951868b6a0070ebbac90531f989bbce"
+    },
+    {
+      "id": "etihad-suspended-until-mar4-1400",
+      "category": "airline_update",
+      "summary": "Etihad flight status notice says all scheduled commercial flights to/from Abu Dhabi are suspended until 14:00 UAE time Wed, 4 Mar; rebooking waivers and refunds available for eligible tickets.",
+      "firstReported": "2026-03-02T23:18:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "df7f84f7bb30df3b04f936166741713c44449213"
+    },
+    {
+      "id": "cbse-additional-postponements-mar5-6-circular2",
+      "category": "education",
+      "summary": "CBSE Circular-2 (reported by NDTV) postpones Mar 5-6 exams in 7 Middle East countries; review on Mar 5 for exams from Mar 7 onwards. Official CBSE PDF not located yet.",
+      "firstReported": "2026-03-03T13:01:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "082b6b25ea40f66412ad692b93db78ff4482d7ef"
+    },
+    {
+      "id": "airindia-suspended-until-mar3-2359",
+      "category": "airline_update",
+      "summary": "Air India extended temporary suspension of all flights to/from Middle East region until 23:59 IST on Mar 3, 2026.",
+      "firstReported": "2026-03-03T13:59:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "327a5593337da651615a738b5f95fd51e3ff909e"
+    },
+    {
+      "id": "cbse-circular2-official-pdf",
+      "category": "education",
+      "summary": "CBSE Circular-2 PDF located (official): postpones Mar 5-6 Middle East exams; review Mar 5",
+      "firstReported": "2026-03-03T15:00:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "57c3fb3e8217e3ed3d31ee9231222bce4f053c17"
+    }
+  ]
+}
