@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-03-02T23:59:00+05:30",
-  "lastChecked": "2026-03-03T07:03:00+05:30",
+  "lastChecked": "2026-03-03T08:02:00+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
@@ -398,7 +398,7 @@
       "time": "00:00",
       "summary": "MEA advises foreign nationals in India affected by flight disruptions to contact the nearest FRRO for visa-related services including extensions.",
       "source": "MEA",
-           "sourceUrl": "https://www.mea.gov.in"
+      "sourceUrl": "https://www.mea.gov.in"
     }
   ],
   "resources": [
