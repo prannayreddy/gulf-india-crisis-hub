@@ -1,5 +1,5 @@
 {
-  "lastRunTimestamp": "2026-03-02T22:00:00+05:30",
+  "lastRunTimestamp": "2026-03-03T13:01:00+05:30",
   "reportedFindings": [
     {
       "id": "doh-status-suspended",
@@ -229,6 +229,26 @@
       "tier": 1,
       "autoDeployed": true,
       "commit": "9d746694b951868b6a0070ebbac90531f989bbce"
+    },
+    {
+      "id": "etihad-suspended-until-mar4-1400",
+      "category": "airline_update",
+      "summary": "Etihad flight status notice says all scheduled commercial flights to/from Abu Dhabi are suspended until 14:00 UAE time Wed, 4 Mar; rebooking waivers and refunds available for eligible tickets.",
+      "firstReported": "2026-03-02T23:18:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "df7f84f7bb30df3b04f936166741713c44449213"
+    },
+    {
+      "id": "cbse-additional-postponements-mar5-6-circular2",
+      "category": "education",
+      "summary": "CBSE Circular-2 (reported by NDTV) postpones Mar 5-6 exams in 7 Middle East countries; review on Mar 5 for exams from Mar 7 onwards. Official CBSE PDF not located yet.",
+      "firstReported": "2026-03-03T13:01:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "082b6b25ea40f66412ad692b93db78ff4482d7ef"
     }
   ]
 }
