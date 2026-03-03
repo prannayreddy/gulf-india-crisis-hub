@@ -1,5 +1,5 @@
 {
-  "lastRunTimestamp": "2026-03-03T13:01:00+05:30",
+  "lastRunTimestamp": "2026-03-03T13:59:00+05:30",
   "reportedFindings": [
     {
       "id": "doh-status-suspended",
@@ -249,6 +249,16 @@
       "tier": 1,
       "autoDeployed": true,
       "commit": "082b6b25ea40f66412ad692b93db78ff4482d7ef"
+    },
+    {
+      "id": "airindia-suspended-until-mar3-2359",
+      "category": "airline_update",
+      "summary": "Air India extended temporary suspension of all flights to/from Middle East region until 23:59 IST on Mar 3, 2026.",
+      "firstReported": "2026-03-03T13:59:00+05:30",
+      "resolved": false,
+      "tier": 1,
+      "autoDeployed": true,
+      "commit": "327a5593337da651615a738b5f95fd51e3ff909e"
     }
   ]
 }
