@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-03T15:00:00+05:30",
-  "lastChecked": "2026-03-03T16:03:00+05:30",
+  "lastUpdated": "2026-03-03T17:01:00+05:30",
+  "lastChecked": "2026-03-03T17:01:00+05:30",
   "monitoringInterval": 60,
   "crisisStatus": "ACTIVE",
   "banner": {
@@ -194,7 +194,7 @@
       "contactUrl": "https://www.emirates.com/english/help/contact-us/",
       "phone": "+971 600 555555",
       "whatsapp": "+971 600 555555",
-      "crisisNote": "Limited number of flights from evening 2 Mar; all other flights suspended until further notice. Rebook for travel on/before 20 Mar or request refund."
+      "crisisNote": "All scheduled Emirates flights to/from Dubai remain suspended until 23:59 UAE time on 4 Mar due to regional airspace closures. Limited repatriation/freighter flights may operate on 3–4 Mar; do not go to airport unless notified/confirmed. Rebook for travel on/before 20 Mar or request refund (bookings on/before 10 Mar); city check-in points closed."
     },
     {
       "name": "Etihad",
@@ -204,7 +204,7 @@
       "contactUrl": "https://www.etihad.com/en/help/contact-us",
       "phone": "+971 600 555666",
       "whatsapp": "+971 600 555666",
-      "crisisNote": "Suspended: Abu Dhabi flights paused until 14:00 UAE time Wed, 4 Mar. Tickets issued on/before 28 Feb with travel up to 7 Mar: rebook free on Etihad-operated flights up to 18 Mar; refunds available for travel up to 7 Mar. Check flight status before heading to airport."
+      "crisisNote": "Suspended: all scheduled commercial flights to/from Abu Dhabi paused until 14:00 UAE time Thu, 5 Mar. Tickets issued on/before 28 Feb with original travel dates up to 10 Mar: rebook free on Etihad-operated flights up to 31 Mar; refunds available for travel up to 10 Mar. Do not travel to airport unless contacted; check flight status before travel."
     },
     {
       "name": "flydubai",
@@ -234,7 +234,7 @@
       "contactUrl": "https://www.qatarairways.com/en/help.html",
       "phone": "+974 4144 5555",
       "whatsapp": "+974 4144 5555",
-      "crisisNote": "Operations remain temporarily suspended due to Qatari airspace closure. Next update expected Mar 3 by 09:00 Doha time (06:00 UTC)."
+      "crisisNote": "Operations remain temporarily suspended due to Qatari airspace closure. Next update expected 4 Mar by 09:00 Doha time (06:00 UTC). Bookings with travel dates 28 Feb–10 Mar 2026 are eligible for refund of unused ticket value."
     },
     {
       "name": "Saudia",
@@ -312,6 +312,39 @@
     }
   ],
   "advisories": [
+    {
+      "title": "Qatar Airways remains suspended; next update by 4 Mar 09:00 Doha; refunds for travel 28 Feb–10 Mar",
+      "category": "aviation",
+      "severity": "high",
+      "issuedDate": "2026-03-03",
+      "date": "2026-03-03",
+      "time": "17:01",
+      "summary": "Qatar Airways says flight operations remain temporarily suspended due to Qatari airspace closure and will resume once authorities reopen the airspace. Next update is scheduled for 4 Mar by 09:00 Doha time (06:00 UTC); the airline also states that confirmed bookings with travel dates between 28 Feb and 10 Mar 2026 are eligible for a refund of unused ticket value.",
+      "source": "Qatar Airways",
+      "sourceUrl": "https://www.qatarairways.com/tradeportal/en-in/news-updates/2026/Operations-update-Qatari-Airspace-closure.html"
+    },
+    {
+      "title": "Etihad extends Abu Dhabi suspension until 14:00 UAE time (5 Mar)",
+      "category": "aviation",
+      "severity": "high",
+      "issuedDate": "2026-03-03",
+      "date": "2026-03-03",
+      "time": "17:01",
+      "summary": "Etihad says all scheduled commercial flights to/from Abu Dhabi remain suspended until 14:00 UAE time on Thu, 5 Mar. Eligible guests (tickets issued on/before 28 Feb; original travel up to 10 Mar) can rebook free on Etihad-operated flights up to 31 Mar; refunds available for travel up to 10 Mar.",
+      "source": "Etihad",
+      "sourceUrl": "https://www.etihad.com/en/manage/flight-status"
+    },
+    {
+      "title": "Emirates extends Dubai suspension: scheduled flights suspended until 23:59 UAE time (4 Mar)",
+      "category": "aviation",
+      "severity": "high",
+      "issuedDate": "2026-03-03",
+      "date": "2026-03-03",
+      "time": "17:01",
+      "summary": "Emirates says all scheduled flights to/from Dubai remain suspended until 23:59 UAE time on 4 Mar due to regional airspace closures. Limited repatriation/freighter flights may operate on 3–4 Mar; passengers should not go to the airport unless notified or holding a confirmed booking.",
+      "source": "Emirates",
+      "sourceUrl": "https://www.emirates.com/us/english/help/travel-updates/"
+    },
     {
       "title": "CBSE: additional Middle East board exams (Mar 5–6) postponed; next review Mar 5",
       "category": "education",
