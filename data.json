@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-04T22:03:00+05:30",
-  "lastChecked": "2026-03-05T10:00:34+05:30",
+  "lastUpdated": "2026-03-05T22:03:00+05:30",
+  "lastChecked": "2026-03-05T22:03:00+05:30",
   "monitoringInterval": 720,
   "crisisStatus": "ACTIVE",
   "banner": {
@@ -194,7 +194,7 @@
       "contactUrl": "https://www.emirates.com/english/help/contact-us/",
       "phone": "+971 600 555555",
       "whatsapp": "+971 600 555555",
-      "crisisNote": "All scheduled flights to/from Dubai suspended until 23:59 UAE time 7 Mar; limited flights operate. Rebook travel on/before 27 Mar; refunds for bookings on/before 12 Mar."
+      "crisisNote": "With limited reopening of airspace, Emirates is operating a reduced flight schedule until further notice. Passengers should not go to the airport unless holding a confirmed booking for operating flights. Customers booked 28 Feb–31 Mar can rebook for travel on/before 30 Apr or request a refund."
     },
     {
       "name": "Etihad",
@@ -234,7 +234,7 @@
       "contactUrl": "https://www.qatarairways.com/en/help.html",
       "phone": "+974 4144 5555",
       "whatsapp": "+974 4144 5555",
-      "crisisNote": "Operations remain temporarily suspended due to Qatari airspace closure. Next update expected 4 Mar by 09:00 Doha time (06:00 UTC). Bookings with travel dates 28 Feb–10 Mar 2026 are eligible for refund of unused ticket value."
+      "crisisNote": "Operations remain temporarily suspended due to Qatari airspace closure. Qatar Airways will operate a limited number of relief flights from 5 Mar (e.g., Muscat–select Europe and Riyadh–Frankfurt) for stranded passengers; do not go to airport unless officially notified. Next update expected 6 Mar by 09:00 Doha time (06:00 UTC)."
     },
     {
       "name": "Saudia",
@@ -312,6 +312,17 @@
     }
   ],
   "advisories": [
+    {
+      "issuedDate": "2026-03-05",
+      "date": "2026-03-05",
+      "time": "22:03",
+      "category": "aviation",
+      "severity": "high",
+      "title": "Qatar Airways plans limited relief flights from 5 March while airspace remains closed",
+      "summary": "Qatar Airways says scheduled operations remain suspended due to Qatari airspace closure, but it will operate a limited number of relief flights from 5 March to assist stranded passengers; do not proceed to the airport unless officially notified. Next update due 6 March by 09:00 Doha time.",
+      "source": "Qatar Airways Trade Portal",
+      "sourceUrl": "https://www.qatarairways.com/tradeportal/en-in/news-updates/2026/Operations-update-Qatari-Airspace-closure.html"
+    },
     {
       "issuedDate": "2026-03-04",
       "date": "2026-03-04",
