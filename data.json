@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-03-04T22:03:00+05:30",
-  "lastChecked": "2026-03-04T22:03:00+05:30",
+  "lastChecked": "2026-03-05T10:00:34+05:30",
   "monitoringInterval": 720,
   "crisisStatus": "ACTIVE",
   "banner": {
@@ -234,7 +234,7 @@
       "contactUrl": "https://www.qatarairways.com/en/help.html",
       "phone": "+974 4144 5555",
       "whatsapp": "+974 4144 5555",
-      "crisisNote": "Operations temporarily suspended due to Qatari airspace closure; next official update expected by 09:00 Doha time on 6 Mar."
+      "crisisNote": "Operations remain temporarily suspended due to Qatari airspace closure. Next update expected 4 Mar by 09:00 Doha time (06:00 UTC). Bookings with travel dates 28 Feb–10 Mar 2026 are eligible for refund of unused ticket value."
     },
     {
       "name": "Saudia",
