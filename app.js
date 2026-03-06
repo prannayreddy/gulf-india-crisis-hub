@@ -276,16 +276,10 @@
   // --- Monitoring Status ---
   function renderMonitoringStatus(data) {
     var el = document.getElementById('monitoring-status');
-    if (!el || !data.monitoringInterval) return;
+    if (!el) return;
 
     var lastChecked = new Date(data.lastChecked || data.lastUpdated);
-    var intervalMs = data.monitoringInterval * 60 * 1000;
     var now = new Date();
-
-    var nextCheck = new Date(lastChecked.getTime() + intervalMs);
-    while (nextCheck <= now) {
-      nextCheck = new Date(nextCheck.getTime() + intervalMs);
-    }
 
     var diffMin = Math.floor((now - lastChecked) / 60000);
     var agoStr;
@@ -294,14 +288,8 @@
     else if (diffMin < 1440) agoStr = Math.floor(diffMin / 60) + 'h ' + (diffMin % 60) + 'm ago';
     else agoStr = Math.floor(diffMin / 1440) + 'd ago';
 
-    var untilMin = Math.max(0, Math.ceil((nextCheck - now) / 60000));
-    var nextStr;
-    if (untilMin < 1) nextStr = 'any moment';
-    else if (untilMin < 60) nextStr = 'in ' + untilMin + ' min';
-    else nextStr = 'in ' + Math.floor(untilMin / 60) + 'h ' + (untilMin % 60) + 'm';
-
     el.innerHTML = '<span class="monitoring-status__dot" aria-hidden="true"></span>' +
-      'Auto-monitored every 12 hours &middot; Last checked ' + agoStr + ' &middot; Next check ' + nextStr;
+      'Last updated ' + agoStr;
 
     // Refresh every 60 seconds
     setTimeout(function () { renderMonitoringStatus(data); }, 60000);
